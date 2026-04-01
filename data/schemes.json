@@ -185,5 +185,69 @@
     "Funds credited"
   ],
   "details": "Encourages school education among economically weaker and minority students."
+},
+
+
+{
+  "name": "Medical Assistance (Karmika Arogya Bhagya)",
+  "category": "Health & Labour Welfare",
+  "eligibility": {
+    "worker_type": "construction_worker",
+    "state": "Karnataka",
+    "registered_worker": true,
+    "min_age": 18,
+    "work_days_required": 90,
+    "hospitalization_required": true,
+    "min_hospital_hours": 48
+  },
+  "benefits": "₹300 per day up to ₹20,000 for hospitalization (minimum 48 hours required)",
+  "documents": [
+    "Aadhaar Card",
+    "Work Certificate (90 Days)",
+    "Discharge Summary",
+    "Medical Bills",
+    "Self Declaration Form"
+  ],
+  "steps": [
+    "Register on KBOCWWB portal",
+    "Login using mobile OTP",
+    "Go to schemes section",
+    "Select medical assistance scheme",
+    "Upload documents",
+    "Submit application",
+    "Verification and approval"
+  ],
+  "details": "This scheme provides financial assistance to registered construction workers and their dependents in Karnataka during hospitalization, ensuring support for medical expenses."
+},
+
+
+{
+  "name": "Griha Lakshmi Scheme",
+  "category": "Women & Financial Support",
+  "eligibility": {
+    "gender": "female",
+    "state": "Karnataka",
+    "role": "head_of_family",
+    "ration_card": true,
+    "income_tax_payer": false
+  },
+  "benefits": "₹2,000 per month financial assistance directly transferred to bank account (DBT)",
+  "documents": [
+    "Ration Card",
+    "Aadhaar Card",
+    "Bank Passbook",
+    "Residence Proof",
+    "Income Certificate",
+    "Self Declaration"
+  ],
+  "steps": [
+    "Visit Seva Sindhu portal",
+    "Register using Aadhaar and mobile number",
+    "Login and fill application form",
+    "Upload required documents",
+    "Submit application and get reference number",
+    "Verification and approval"
+  ],
+  "details": "Griha Lakshmi Scheme provides monthly financial assistance to women heads of households in Karnataka to support household expenses and improve financial stability."
 }
 ]
