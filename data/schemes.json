@@ -1,0 +1,189 @@
+[
+{
+  "name": "Udyogini Scheme",
+  "category": "Women Self Employment",
+  "eligibility": {
+    "gender": "female",
+    "age_limit": 55,
+    "min_age": 18,
+    "max_income": 150000,
+    "state": "Karnataka"
+  },
+  "benefits": "Loan up to ₹3,00,000 with subsidy (50% SC/ST, 30% others)",
+  "documents": [
+    "ID Proof",
+    "Income Certificate",
+    "Caste Certificate",
+    "Project Report"
+  ],
+  "steps": [
+    "Visit bank",
+    "Submit documents",
+    "Loan approval",
+    "Receive amount"
+  ],
+  "details": "Udyogini Scheme helps women become self-employed by providing financial support through banks. It offers subsidy on loans and encourages small business activities like tailoring, food processing, and handicrafts."
+},
+
+{
+  "name": "Shrama Shakthi Scheme",
+  "category": "Minority Self Employment",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 55,
+    "max_income": 350000,
+    "state": "Karnataka",
+    "category": "Minority",
+    "occupation": "entrepreneur"
+  },
+  "benefits": "Loan of ₹50,000 with 4% interest. 50% subsidy if repaid properly.",
+  "documents": [
+    "Application Form",
+    "Aadhaar Card",
+    "Income Certificate",
+    "Caste Certificate",
+    "Bank Passbook",
+    "Project Report"
+  ],
+  "steps": [
+    "Fill online application",
+    "Print application form",
+    "Submit to district office",
+    "Approval by selection panel",
+    "Loan and subsidy credited"
+  ],
+  "details": "Shrama Shakthi Scheme provides financial support and skill training to minority entrepreneurs in Karnataka. It offers a loan of ₹50,000 at low interest and encourages small business activities. If the loan is repaid on time, 50% is converted into subsidy."
+},
+
+{
+  "name": "Arivu Education Loan Scheme",
+  "category": "Education",
+  "eligibility": {
+    "student": true,
+    "state": "Karnataka",
+    "category": "Minority",
+    "max_income": 800000,
+    "course_type": "professional"
+  },
+  "benefits": "Loan from ₹50,000 to ₹5,00,000 per year. 2% service charge after course completion.",
+  "documents": [
+    "Aadhaar Card",
+    "Income Certificate",
+    "Caste Certificate",
+    "Admission Letter",
+    "Marks Cards",
+    "Bonafide Certificate"
+  ],
+  "steps": [
+    "Visit KMDC website",
+    "Register using mobile and Aadhaar",
+    "Fill personal and education details",
+    "Upload required documents",
+    "Submit application",
+    "Receive application ID and wait for approval"
+  ],
+  "details": "Arivu Education Loan Scheme supports minority students in Karnataka by providing financial assistance for professional courses like engineering, medical, and management."
+},
+
+{
+  "name": "Bhagya Lakshmi Scheme",
+  "category": "Women & Child Welfare",
+  "eligibility": {
+    "gender": "female",
+    "state": "Karnataka",
+    "family_type": "BPL",
+    "max_children": 2,
+    "birth_after": "31-03-2006",
+    "marriage_age_min": 18
+  },
+  "benefits": "Financial assistance up to ₹34,751 at age 18, annual scholarship (₹300–₹1,000), and health insurance up to ₹25,000 per year",
+  "documents": [
+    "Birth Certificate",
+    "Income Certificate",
+    "Address Proof",
+    "BPL Card",
+    "Bank Details",
+    "Photograph with parents"
+  ],
+  "steps": [
+    "Download application form from official website",
+    "Fill required details",
+    "Attach necessary documents",
+    "Submit to Anganwadi or local office",
+    "Verification and approval"
+  ],
+  "details": "Bhagya Lakshmi Scheme supports girl children in Karnataka by providing financial assistance, scholarships, and insurance benefits to families below the poverty line."
+},
+
+{
+  "name": "Vidyasiri Scheme",
+  "category": "Education",
+  "eligibility": {
+    "student": true,
+    "state": "Karnataka",
+    "category": "OBC/SC/ST",
+    "max_income": 250000
+  },
+  "benefits": "Free hostel, food, and fee assistance",
+  "documents": [
+    "Aadhaar Card",
+    "Income Certificate",
+    "Caste Certificate"
+  ],
+  "steps": [
+    "Apply on SSP portal",
+    "Verification",
+    "Benefit credited"
+  ],
+  "details": "Provides hostel, food, and fee support to backward class students pursuing higher education."
+},
+
+{
+  "name": "Post Matric Scholarship (Karnataka)",
+  "category": "Education",
+  "eligibility": {
+    "student": true,
+    "min_class": 11,
+    "state": "Karnataka",
+    "category": "SC/ST/OBC",
+    "max_income": 250000
+  },
+  "benefits": "Tuition fees + maintenance allowance",
+  "documents": [
+    "Aadhaar Card",
+    "Income Certificate",
+    "Caste Certificate"
+  ],
+  "steps": [
+    "Apply via SSP",
+    "Upload documents",
+    "Verification",
+    "Funds credited"
+  ],
+  "details": "Supports students after Class 10 to continue education in colleges and professional courses."
+},
+
+{
+  "name": "Pre Matric Scholarship (Karnataka)",
+  "category": "Education",
+  "eligibility": {
+    "student": true,
+    "class_range": "1-10",
+    "state": "Karnataka",
+    "category": "SC/ST/Minority",
+    "max_income": 100000
+  },
+  "benefits": "Financial support for school education",
+  "documents": [
+    "Aadhaar Card",
+    "Income Certificate",
+    "School Certificate"
+  ],
+  "steps": [
+    "Apply online",
+    "Verification",
+    "Funds credited"
+  ],
+  "details": "Encourages school education among economically weaker and minority students."
+}
+]
