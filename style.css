@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #eef2f7;
+}
+/* Header */
+header {
+    background: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+}
+.hero p {
+    margin-bottom: 20px;
+}
+/* Search Box */
+.search-box {
+    margin-top: 20px;
+}
+select, input {
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 200px;
+}
+/* Buttons */
+button {
+    padding: 12px 20px;
+    border: none;
+    background: #ff7a18;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: #ff5200;
+    transform: scale(1.05);
+}
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+/* Form Section */
+.form-section {
+    text-align: center;
+    padding: 40px;
+}
+.form-box {
+    background: white;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+/* Result */
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+/* Responsive */
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    select, input {
+        width: 90%;
+    }
+}

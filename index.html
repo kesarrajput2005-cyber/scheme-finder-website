@@ -2,8 +2,41 @@
 <html>
 <head>
     <title>Scheme Finder</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to Scheme Finder</h1>
+    <header>
+        <h1>🚀 Scheme Finder</h1>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Find Government Schemes Easily</h2>
+        <p>Smart way to discover benefits for you</p>
+        <div class="search-box">
+            <select id="category">
+                <option value="">Select Category</option>
+                <option value="student">🎓 Student</option>
+                <option value="farmer">🚜 Farmer</option>
+                <option value="women">👩 Women</option>
+            </select>
+            <button onclick="showSchemes()">Search</button>
+        </div>
+    </section>
+    <!-- Cards -->
+    <section id="schemes" class="cards"></section>
+    <!-- Form -->
+    <section class="form-section">
+        <h2>Check Your Eligibility</h2>
+        <form id="form" class="form-box">
+            <input type="number" id="age" placeholder="Enter Age" required>
+            <input type="text" id="job" placeholder="Occupation" required>
+            <button type="submit">Check Now</button>
+        </form>
+        <p id="result"></p>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
