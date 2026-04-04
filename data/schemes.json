@@ -1,0 +1,892 @@
+
+{
+  "name": "Udyogini Scheme",
+  "category": "Women Self Employment",
+  "eligibility": {
+    "gender": "female",
+    "age_limit": 55,
+    "min_age": 18,
+    "max_income": 150000,
+    "state": "Karnataka"
+  },
+  "benefits": "Loan up to ₹3,00,000 with subsidy (50% SC/ST, 30% others)",
+  "documents": [
+    "ID Proof",
+    "Income Certificate",
+    "Caste Certificate",
+    "Project Report"
+  ],
+  "steps": [
+    "Visit bank",
+    "Submit documents",
+    "Loan approval",
+    "Receive amount"
+  ],
+  "details": "Udyogini Scheme helps women become self-employed by providing financial support through banks. It offers subsidy on loans and encourages small business activities like tailoring, food processing, and handicrafts."
+};
+
+{
+  "name": "Shrama Shakthi Scheme",
+  "category": "Minority Self Employment",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 55,
+    "max_income": 350000,
+    "state": "Karnataka",
+    "category": "Minority",
+    "occupation": "entrepreneur"
+  },
+  "benefits": "Loan of ₹50,000 with 4% interest. 50% subsidy if repaid properly.",
+  "documents": [
+    "Application Form",
+    "Aadhaar Card",
+    "Income Certificate",
+    "Caste Certificate",
+    "Bank Passbook",
+    "Project Report"
+  ],
+  "steps": [
+    "Fill online application",
+    "Print application form",
+    "Submit to district office",
+    "Approval by selection panel",
+    "Loan and subsidy credited"
+  ],
+  "details": "Shrama Shakthi Scheme provides financial support and skill training to minority entrepreneurs in Karnataka. It offers a loan of ₹50,000 at low interest and encourages small business activities. If the loan is repaid on time, 50% is converted into subsidy."
+},
+
+{
+  "name": "Arivu Education Loan Scheme",
+  "category": "Education",
+  "eligibility": {
+    "student": true,
+    "state": "Karnataka",
+    "category": "Minority",
+    "max_income": 800000,
+    "course_type": "professional"
+  },
+  "benefits": "Loan from ₹50,000 to ₹5,00,000 per year. 2% service charge after course completion.",
+  "documents": [
+    "Aadhaar Card",
+    "Income Certificate",
+    "Caste Certificate",
+    "Admission Letter",
+    "Marks Cards",
+    "Bonafide Certificate"
+  ],
+  "steps": [
+    "Visit KMDC website",
+    "Register using mobile and Aadhaar",
+    "Fill personal and education details",
+    "Upload required documents",
+    "Submit application",
+    "Receive application ID and wait for approval"
+  ],
+  "details": "Arivu Education Loan Scheme supports minority students in Karnataka by providing financial assistance for professional courses like engineering, medical, and management."
+},
+
+{
+  "name": "Bhagya Lakshmi Scheme",
+  "category": "Women & Child Welfare",
+  "eligibility": {
+    "gender": "female",
+    "state": "Karnataka",
+    "family_type": "BPL",
+    "max_children": 2,
+    "birth_after": "31-03-2006",
+    "marriage_age_min": 18
+  },
+  "benefits": "Financial assistance up to ₹34,751 at age 18, annual scholarship (₹300–₹1,000), and health insurance up to ₹25,000 per year",
+  "documents": [
+    "Birth Certificate",
+    "Income Certificate",
+    "Address Proof",
+    "BPL Card",
+    "Bank Details",
+    "Photograph with parents"
+  ],
+  "steps": [
+    "Download application form from official website",
+    "Fill required details",
+    "Attach necessary documents",
+    "Submit to Anganwadi or local office",
+    "Verification and approval"
+  ],
+  "details": "Bhagya Lakshmi Scheme supports girl children in Karnataka by providing financial assistance, scholarships, and insurance benefits to families below the poverty line."
+},
+
+{
+  "name": "Vidyasiri Scheme",
+  "category": "Education",
+  "eligibility": {
+    "student": true,
+    "state": "Karnataka",
+    "category": "OBC/SC/ST",
+    "max_income": 250000
+  },
+  "benefits": "Free hostel, food, and fee assistance",
+  "documents": [
+    "Aadhaar Card",
+    "Income Certificate",
+    "Caste Certificate"
+  ],
+  "steps": [
+    "Apply on SSP portal",
+    "Verification",
+    "Benefit credited"
+  ],
+  "details": "Provides hostel, food, and fee support to backward class students pursuing higher education."
+},
+
+{
+  "name": "Post Matric Scholarship (Karnataka)",
+  "category": "Education",
+  "eligibility": {
+    "student": true,
+    "min_class": 11,
+    "state": "Karnataka",
+    "category": "SC/ST/OBC",
+    "max_income": 250000
+  },
+  "benefits": "Tuition fees + maintenance allowance",
+  "documents": [
+    "Aadhaar Card",
+    "Income Certificate",
+    "Caste Certificate"
+  ],
+  "steps": [
+    "Apply via SSP",
+    "Upload documents",
+    "Verification",
+    "Funds credited"
+  ],
+  "details": "Supports students after Class 10 to continue education in colleges and professional courses."
+},
+
+{
+  "name": "Pre Matric Scholarship (Karnataka)",
+  "category": "Education",
+  "eligibility": {
+    "student": true,
+    "class_range": "1-10",
+    "state": "Karnataka",
+    "category": "SC/ST/Minority",
+    "max_income": 100000
+  },
+  "benefits": "Financial support for school education",
+  "documents": [
+    "Aadhaar Card",
+    "Income Certificate",
+    "School Certificate"
+  ],
+  "steps": [
+    "Apply online",
+    "Verification",
+    "Funds credited"
+  ],
+  "details": "Encourages school education among economically weaker and minority students."
+},
+
+
+{
+  "name": "Medical Assistance (Karmika Arogya Bhagya)",
+  "category": "Health & Labour Welfare",
+  "eligibility": {
+    "worker_type": "construction_worker",
+    "state": "Karnataka",
+    "registered_worker": true,
+    "min_age": 18,
+    "work_days_required": 90,
+    "hospitalization_required": true,
+    "min_hospital_hours": 48
+  },
+  "benefits": "₹300 per day up to ₹20,000 for hospitalization (minimum 48 hours required)",
+  "documents": [
+    "Aadhaar Card",
+    "Work Certificate (90 Days)",
+    "Discharge Summary",
+    "Medical Bills",
+    "Self Declaration Form"
+  ],
+  "steps": [
+    "Register on KBOCWWB portal",
+    "Login using mobile OTP",
+    "Go to schemes section",
+    "Select medical assistance scheme",
+    "Upload documents",
+    "Submit application",
+    "Verification and approval"
+  ],
+  "details": "This scheme provides financial assistance to registered construction workers and their dependents in Karnataka during hospitalization, ensuring support for medical expenses."
+},
+
+
+{
+  "name": "Griha Lakshmi Scheme",
+  "category": "Women & Financial Support",
+  "eligibility": {
+    "gender": "female",
+    "state": "Karnataka",
+    "role": "head_of_family",
+    "ration_card": true,
+    "income_tax_payer": false
+  },
+  "benefits": "₹2,000 per month financial assistance directly transferred to bank account (DBT)",
+  "documents": [
+    "Ration Card",
+    "Aadhaar Card",
+    "Bank Passbook",
+    "Residence Proof",
+    "Income Certificate",
+    "Self Declaration"
+  ],
+  "steps": [
+    "Visit Seva Sindhu portal",
+    "Register using Aadhaar and mobile number",
+    "Login and fill application form",
+    "Upload required documents",
+    "Submit application and get reference number",
+    "Verification and approval"
+  ],
+  "details": "Griha Lakshmi Scheme provides monthly financial assistance to women heads of households in Karnataka to support household expenses and improve financial stability."
+},
+
+
+{
+  "schemes": [
+    {
+      "scheme_name": "Compensation for Loss of Life and Property Caused by Wild Animals in and around Forest Areas",
+      "sub_scheme": "Assistance for Damage to Houses Due to Wild Elephant Attacks",
+      "state": "Uttarakhand",
+      "category": ["Damage", "Houses", "Wild Animals"],
+      "details": "Financial assistance to residents whose houses, huts, or boundary walls are damaged by wild elephants.",
+      "benefits": {
+        "kutcha_or_pakka_house_completely_damaged": {
+          "amount": 95000
+        },
+        "kutcha_house_partially_damaged": {
+          "amount": 20000
+        },
+        "pucca_house_partially_damaged_15_percent": {
+          "amount": 15000
+        },
+        "kutcha_house_partially_damaged_15_percent": {
+          "amount": 3200
+        },
+        "hut_or_straw_house_damage": {
+          "amount": 5000
+        }
+      },
+      "eligibility": [
+        "Applicant must be a resident of Uttarakhand",
+        "Damage must be caused by wild elephants in forest areas"
+      ],
+      "application_process": {
+        "mode": "Offline",
+        "steps": [
+          "Report incident to Range Office within 2 days",
+          "Verification by Forest Inspector or Deputy Forest Range Officer",
+          "Joint assessment by Naib Tehsildar and Range Officer",
+          "Final investigation by Assistant Conservator of Forests",
+          "Approval and compensation by Divisional Forest Officer"
+        ],
+        "helpline": "1800-890-9715"
+      },
+      "documents_required": [
+        "Identity Proof",
+        "Damage Assessment Report",
+        "Bank Account Details",
+        "Other supporting documents"
+      ]
+    },
+    {
+      "scheme_name": "Construction Workers Night Shelter Scheme",
+      "department": "Labour Department, Government of Madhya Pradesh",
+      "state": "Madhya Pradesh",
+      "category": ["Construction", "Worker", "Housing"],
+      "details": "Night shelters for construction workers and their families who temporarily relocate for work.",
+      "benefits": [
+        "Night shelters for construction workers",
+        "Accommodation for family members"
+      ],
+      "eligibility": {
+        "registration": [
+          "Resident of Madhya Pradesh",
+          "Construction worker",
+          "Age between 18 and 60 years",
+          "Worked at least 90 days in last 12 months",
+          "Annual registration renewal required"
+        ],
+        "application": [
+          "Construction worker with valid identity card",
+          "Worker temporarily relocated for work"
+        ]
+      },
+      "application_process": {
+        "mode": ["Offline", "Online"],
+        "steps": [
+          "Visit Municipal Corporation or Nagar Palika office",
+          "Collect application form",
+          "Fill mandatory details and attach documents",
+          "Submit form to concerned authority",
+          "Receive acknowledgement receipt"
+        ]
+      },
+      "documents_required": [
+        "Aadhaar Card",
+        "Passport Size Photograph",
+        "Residence Proof",
+        "Ration Card (optional)",
+        "Bank Passbook Copy",
+        "Caste Certificate (if applicable)",
+        "Age Certificate",
+        "Employment Certificate",
+        "Valid Identity Card"
+      ]
+    },
+    {
+      "scheme_name": "Construction of Free Houses for Tribals",
+      "department": "Adi Dravidar and Tribal Welfare Department",
+      "state": "Tamil Nadu",
+      "category": ["Housing", "Tribal Welfare"],
+      "details": "Free house construction for tribal communities who have house site pattas.",
+      "benefits": [
+        "Free house construction",
+        "Improved living conditions with permanent housing"
+      ],
+      "eligibility": [
+        "Resident of Tamil Nadu",
+        "Belongs to SC/ST community",
+        "Must possess free house site patta"
+      ],
+      "application_process": {
+        "mode": "Offline",
+        "steps": [
+          "Collect application form from Tribal Welfare office",
+          "Fill form and attach documents",
+          "Submit form to concerned authority",
+          "Receive acknowledgement receipt"
+        ]
+      },
+      "documents_required": [
+        "Identity Proof",
+        "Caste Certificate",
+        "Free House Site Patta",
+        "Other supporting documents"
+      ]
+    },
+    {
+      "scheme_name": "Construction of Hostels for OBC Boys and Girls",
+      "department": "Ministry of Social Justice and Empowerment",
+      "category": ["Education", "Hostel", "OBC"],
+      "details": "Financial assistance for construction of hostels to support OBC students from rural and poor backgrounds.",
+      "benefits": {
+        "cost_per_seat": {
+          "north_eastern_region": 350000,
+          "himalayan_region": 325000,
+          "rest_of_india": 300000
+        },
+        "furniture_grant_per_seat": 2500
+      },
+      "funding_pattern": {
+        "boys_hostel": "60 percent central government, 40 percent state government",
+        "girls_hostel": "90 percent central government, 10 percent state government",
+        "union_territories": "100 percent central government"
+      },
+      "eligibility": {
+        "agencies": [
+          "State Governments",
+          "UT Administrations",
+          "Central Universities",
+          "Institutes like IIT, NIT"
+        ],
+        "students": [
+          "Belong to OBC category",
+          "Not in creamy layer",
+          "Preference to low-income families",
+          "5 percent seats reserved for students with disabilities"
+        ]
+      },
+      "application_process": {
+        "mode": "Offline",
+        "submission_address": "Joint Secretary (Backward Classes), Ministry of Social Justice and Empowerment, Shastri Bhavan, New Delhi"
+      },
+      "documents_required": [
+        "Land availability proof",
+        "Site Plan",
+        "Cost estimate approved by engineer",
+        "Annual Report",
+        "Financial statements of last two years"
+      ]
+    },
+    {
+      "scheme_name": "Government Working Women's Hostel",
+      "department": "Social Welfare and Women Empowerment Department",
+      "state": "Tamil Nadu",
+      "category": ["Women", "Hostel", "Accommodation"],
+      "details": "Affordable hostel accommodation for working women living away from families.",
+      "benefits": {
+        "rent_chennai": 300,
+        "rent_other_districts": 200,
+        "facilities": [
+          "Accommodation",
+          "Food",
+          "Electricity charges shared"
+        ],
+        "maximum_stay": "3 years"
+      },
+      "eligibility": [
+        "Applicant must be a working woman",
+        "Income should not exceed 25000 in Chennai",
+        "Income should not exceed 15000 in other districts"
+      ],
+      "application_process": {
+        "mode": ["Online via CSC", "Offline"],
+        "steps": [
+          "Visit nearest CSC",
+          "Complete biometric verification",
+          "Fill application form",
+          "Upload required documents",
+          "Receive acknowledgement receipt"
+        ]
+      },
+      "documents_required": [
+        "Employer Certificate",
+        "Income Certificate",
+        "Residence Certificate showing different district"
+      ]
+    }
+  ]
+}
+
+{
+  "scheme_name": "Construction of Godown for Grain Storage",
+  "department": "Panchayat and Rural Development Department",
+  "state": "Madhya Pradesh",
+  "launch_date": "24-12-2013",
+  "category": [
+    "Agriculture",
+    "Farmer",
+    "Food Security",
+    "Godown",
+    "Storage"
+  ],
+  "details": "The scheme aims to provide modern and scientific food grain storage facilities in rural areas under the Food Security Act. Applicants must apply through the concerned Gram Panchayat.",
+  "benefits": [
+    "Construction of modern and scientific food grain storage facilities"
+  ],
+  "eligibility": [
+    "Applicant should be located in a rural area of Madhya Pradesh",
+    "Applicant should be engaged in agriculture or grain storage related activities",
+    "Applicant should have access to at least one acre of land or land allotted by the Cooperative Department"
+  ],
+  "application_process": {
+    "mode": [
+      "Online",
+      "Offline"
+    ],
+    "steps": [
+      "Visit the official Panchayat Darpan 2.0 website",
+      "Click on Online Services",
+      "Select Building Construction Permission Application",
+      "Fill all mandatory fields and upload required documents",
+      "Review the information carefully",
+      "Submit the application and note the Application Number"
+    ]
+  },
+  "post_application_process": [
+    "If the application is correct, Gram Panchayat issues notice for building permission fee",
+    "Applicant must deposit the prescribed fee before the due date",
+    "After fee payment, construction permission will be issued"
+  ],
+  "track_application_status": {
+    "required_fields": [
+      "Application Number",
+      "Mobile Number"
+    ]
+  },
+  "documents_required": [
+    "Plan of the Proposed Structure",
+    "Land Swamitva Document"
+  ]
+}
+
+{
+  "schemes": [
+    {
+      "scheme_name": "Coaching Help Scheme for JEE-GUJCET-NEET Exams",
+      "department": "Social Justice and Empowerment Department",
+      "state": "Gujarat",
+      "implemented_by": "Gujarat Unreserved Education and Economical Development Corporation",
+      "category": ["Education", "Coaching", "Engineering", "Medical"],
+      "benefits": {
+        "financial_assistance": "₹20,000 per year per student or actual coaching fee whichever is lower"
+      },
+      "eligibility": [
+        "Applicant must belong to non-reserved category",
+        "Applicant must have 70% or more marks in Class 10/11/12",
+        "Applicant must be from Science stream",
+        "Applicant must be preparing for JEE, GUJCET or NEET",
+        "Coaching institute must have at least 3 years of experience",
+        "Annual family income must be ₹4,50,000 or less"
+      ],
+      "application_process": {
+        "mode": "Online",
+        "steps": [
+          "Visit official website of Gujarat Unreserved Education and Economical Development Corporation",
+          "Click on Coaching Help Scheme for JEE-GUJCET-NEET",
+          "Register as a new user",
+          "Login and fill the application form",
+          "Upload required documents",
+          "Submit application and note application number",
+          "Take printout and send signed copy with documents to Deputy Director or District Social Welfare Officer"
+        ]
+      },
+      "documents_required": [
+        "Application form",
+        "Self declaration",
+        "Non-reserved category certificate",
+        "Income certificate",
+        "Residence proof",
+        "Aadhaar card",
+        "Bonafide certificate",
+        "Leaving certificate",
+        "Class 10 mark sheet",
+        "Coaching fee receipt",
+        "Bank passbook copy",
+        "Proof of coaching institute registration (3 years)",
+        "Fee payment receipt"
+      ]
+    },
+    {
+      "scheme_name": "Contributory Social Security Scheme (CSSS)",
+      "department": "Social Welfare Department",
+      "state": "Jammu and Kashmir",
+      "category": ["Insurance", "Pension", "Social Security"],
+      "benefits": {
+        "state_contribution": "₹300 per quarter",
+        "beneficiary_contribution": "₹200 per quarter",
+        "additional": [
+          "Insurance coverage",
+          "Option to withdraw amount after scheme period",
+          "Option to convert amount into pension scheme"
+        ]
+      },
+      "eligibility": [
+        "Applicant must be an Indian citizen",
+        "Applicant must be at least 18 years old",
+        "Applicant must be a marginal worker",
+        "Annual income should not exceed ₹48,000",
+        "Applicant must be a permanent resident of Jammu and Kashmir",
+        "Applicant or spouse should not be beneficiary of another scheme"
+      ],
+      "application_process": {
+        "mode": "Offline",
+        "steps": [
+          "Visit Tehsil or District Social Welfare Office",
+          "Collect CSSS application form",
+          "Fill form and attach documents",
+          "Submit to District Social Welfare Officer",
+          "Receive acknowledgement receipt"
+        ]
+      },
+      "documents_required": [
+        "Residence proof of Jammu and Kashmir",
+        "Identity proof",
+        "Age proof",
+        "Profession and income certificate",
+        "Three passport size photographs",
+        "Aadhaar card",
+        "Bank account details"
+      ]
+    },
+    {
+      "scheme_name": "Continuation of Pension (KBOCWWB)",
+      "department": "Karnataka Building and Other Construction Workers Welfare Board",
+      "state": "Karnataka",
+      "category": ["Construction Workers", "Labour", "Pension"],
+      "benefits": {
+        "monthly_pension": "₹2,000"
+      },
+      "eligibility": [
+        "Applicant must be registered construction worker",
+        "Must have paid subscription for at least 3 continuous years",
+        "Must remain active construction worker",
+        "Age must be below 60 years",
+        "Should not receive similar pension from other schemes"
+      ],
+      "application_process": {
+        "mode": "Online",
+        "steps": [
+          "Register as construction worker on KBOCWWB website",
+          "Login using registered mobile number",
+          "Select scheme from dashboard",
+          "Fill application form and upload documents",
+          "Submit application"
+        ]
+      },
+      "documents_required": [
+        "Employment certificate or 90 days work certificate",
+        "Aadhaar card",
+        "Ration card (optional)",
+        "Age proof",
+        "Living certificate",
+        "Self declaration"
+      ]
+    },
+    {
+      "scheme_name": "Cost of Hearing Aid for Construction Workers",
+      "department": "Building and Other Construction Workers Welfare Board",
+      "state": "West Bengal",
+      "category": ["Construction Workers", "Health Support"],
+      "benefits": {
+        "financial_assistance": "Up to ₹5,000 for hearing aid purchase"
+      },
+      "eligibility": [
+        "Applicant must be resident of West Bengal",
+        "Applicant must be a construction worker",
+        "Age between 18 and 60 years",
+        "Must have worked at least 90 days in a year",
+        "Must be registered member of BOCW Welfare Board"
+      ],
+      "application_process": {
+        "mode": "Offline",
+        "steps": [
+          "Request Form-27 from Assistant Labour Commissioner",
+          "Fill application form",
+          "Attach documents",
+          "Submit to Beneficiary Registering Officer"
+        ]
+      },
+      "documents_required": [
+        "Passport size photographs",
+        "Age proof",
+        "BOCW identity card",
+        "Original hearing aid purchase bill"
+      ]
+    },
+    {
+      "scheme_name": "Cycle Anudaan Yojana",
+      "department": "Labour Department",
+      "state": "Madhya Pradesh",
+      "category": ["Transportation", "Construction Workers"],
+      "benefits": {
+        "financial_assistance": "90% of actual cost or ₹4,000 whichever is less"
+      },
+      "eligibility": [
+        "Applicant must be registered construction worker",
+        "Must have valid labour identity card",
+        "Must have worked as construction worker for 3 consecutive years",
+        "Cycle purchased under scheme cannot be sold for 3 years"
+      ],
+      "application_process": {
+        "mode": "Offline",
+        "steps": [
+          "Submit application to designated officer",
+          "Rural area: Chief Executive Officer, Janpad Panchayat",
+          "Urban area: Municipal Corporation or Municipality office",
+          "Apply within 3 months from purchase of cycle"
+        ]
+      },
+      "documents_required": [
+        "Application form",
+        "Labour registration card",
+        "Cycle purchase bill"
+      ]
+    }
+  ]
+}
+
+{
+  "schemes": [
+    {
+      "scheme_name": "Community Based Training Scheme",
+      "department": "Minorities Welfare Department",
+      "state": "Karnataka",
+      "implemented_by": "Karnataka Minorities Development Corporation",
+      "category": ["Employment", "Skill Development", "Minority Community"],
+      "benefits": [
+        "Training in Heavy Vehicle Driving",
+        "Training in Short Hand",
+        "Security Services Training",
+        "Office Soft Skill Training",
+        "Retail Sales Training",
+        "Beauty Parlor Course for Male and Female"
+      ],
+      "eligibility": [
+        "Applicant must belong to minority community",
+        "Applicant must be a permanent resident of Karnataka",
+        "Age must be between 18 and 35 years",
+        "Annual family income less than ₹1,03,000 in urban areas",
+        "Annual family income less than ₹96,000 in rural areas",
+        "Minimum qualification SSLC",
+        "Applicant must not have taken training under other government schemes"
+      ],
+      "application_process": {
+        "mode": "Online",
+        "steps": [
+          "Visit Karnataka Minorities Development Corporation website",
+          "Click Apply Online and enter mobile number",
+          "Enter Aadhaar number and verify OTP",
+          "Fill personal details and address",
+          "Upload required documents",
+          "Submit application and receive application ID"
+        ]
+      },
+      "documents_required": [
+        "Aadhaar card",
+        "Bank passbook copy",
+        "Educational marks card",
+        "Minority certificate",
+        "Income certificate",
+        "Self declaration form"
+      ]
+    },
+    {
+      "scheme_name": "Government Food Science Training Centre",
+      "department": "Department of Horticulture",
+      "state": "Uttarakhand",
+      "category": ["Training", "Food Processing", "Diploma"],
+      "benefits": [
+        "1.5 year diploma courses in Food Processing",
+        "Bakery and Confectionery training",
+        "Cookery training"
+      ],
+      "eligibility": [
+        "Applicant must be resident of Uttarakhand",
+        "Intermediate (Science/Agriculture) for Food Processing course",
+        "Intermediate qualification for other courses"
+      ],
+      "application_process": {
+        "mode": "Offline",
+        "steps": [
+          "Visit nearest Food Department Training Centre",
+          "Submit application for course",
+          "Selection based on Intermediate marks merit"
+        ]
+      },
+      "documents_required": [
+        "Documents required as per training centre guidelines"
+      ]
+    },
+    {
+      "scheme_name": "Group Supply Of Goats And Sheep",
+      "state": "Maharashtra",
+      "category": ["Agriculture", "Livestock", "Tribal Welfare"],
+      "benefits": [
+        "10 goats and 1 buck provided on 50% subsidy",
+        "Improves income source for tribal farmers",
+        "Supports employment in tribal areas"
+      ],
+      "eligibility": [
+        "Beneficiary must belong to Scheduled Tribe",
+        "Beneficiary must be below poverty line"
+      ],
+      "application_process": {
+        "mode": "Offline",
+        "steps": [
+          "Contact Group Development Officer",
+          "Apply through Panchayat Samiti or Zilla Parishad"
+        ]
+      },
+      "documents_required": [
+        "Aadhaar card",
+        "Caste certificate",
+        "Income certificate"
+      ]
+    },
+    {
+      "scheme_name": "Employees Pension Scheme",
+      "department": "Employees Provident Fund Organisation",
+      "launch_year": 1995,
+      "category": ["Pension", "Retirement", "Social Security"],
+      "benefits": {
+        "superannuation_pension": "Available after retirement at 58 years with 10 years service",
+        "early_pension": "Available between age 50 and 58 with reduction",
+        "minimum_pension": "₹1000 per month",
+        "family_pension": [
+          "Widow pension",
+          "Children pension",
+          "Orphan pension"
+        ],
+        "disablement_pension": "Minimum ₹250 per month",
+        "formula": "(Pensionable Salary × Pensionable Service) / 70"
+      },
+      "eligibility": [
+        "Applicant must be member of EPF scheme",
+        "Monthly pay must not exceed ₹15000",
+        "Minimum 10 years service required",
+        "Must have contributed to Employees Pension Fund"
+      ],
+      "application_process": {
+        "mode": ["Online", "Offline"],
+        "steps": [
+          "Activate UAN on EPFO portal",
+          "Complete KYC verification",
+          "Login to EPFO portal",
+          "Apply using Form 10D for pension",
+          "Upload required documents",
+          "Submit application and verify OTP"
+        ]
+      },
+      "documents_required": [
+        "Identity proof",
+        "Bank account details",
+        "Date of birth proof",
+        "Death certificate (for family pension)",
+        "Relationship proof",
+        "Disability certificate (if applicable)",
+        "Service proof"
+      ]
+    },
+    {
+      "scheme_name": "IT Saksham Yuva Scheme",
+      "department": "Citizen Resources Information Department",
+      "state": "Haryana",
+      "category": ["Employment", "IT Skills", "Startup Support"],
+      "benefits": {
+        "training_courses": [
+          "Secure coding",
+          "Database administration",
+          "UI/UX design",
+          "Networking",
+          "Server administration",
+          "Web and mobile app development",
+          "Digital marketing"
+        ],
+        "salary": {
+          "first_6_months": "₹20000 per month",
+          "after_6_months": "₹25000 per month"
+        },
+        "unemployment_allowance": "₹10000 per month while waiting for deployment"
+      },
+      "eligibility": [
+        "Applicant must be domicile of Haryana",
+        "Age between 18 and 35 years",
+        "Must be unemployed",
+        "Graduate or postgraduate in IT related field",
+        "Annual family income must not exceed ₹3 lakh for unemployment allowance"
+      ],
+      "application_process": {
+        "mode": "Online",
+        "steps": [
+          "Visit official IT Saksham Yuva website",
+          "Register using Family ID",
+          "Fill personal and education details",
+          "Select IT course",
+          "Upload documents and pay fee",
+          "Submit application"
+        ]
+      },
+      "documents_required": [
+        "Identity proof",
+        "Parivar Pehchan Patra",
+        "Domicile certificate",
+        "Educational certificates",
+        "Passport size photograph",
+        "Income certificate",
+        "Age proof"
+      ]
+    }
+  ]
+}
