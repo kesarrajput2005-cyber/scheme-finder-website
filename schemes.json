@@ -1,0 +1,246 @@
+{
+  "schemes": [
+
+    {
+      "scheme_name": "Udyogini Scheme",
+      "category": "women",
+      "state": "Karnataka",
+      "eligibility": {
+        "job": "entrepreneur",
+        "age_min": 18,
+        "age_max": 55,
+        "max_income": 150000
+      },
+      "details": "Loan support for women entrepreneurs"
+    },
+
+    {
+      "scheme_name": "Shrama Shakthi Scheme",
+      "category": "employment",
+      "state": "Karnataka",
+      "eligibility": {
+        "job": "entrepreneur",
+        "age_min": 18,
+        "age_max": 55,
+        "max_income": 350000
+      },
+      "details": "Encourages entrepreneurship among minorities"
+    },
+
+    {
+      "scheme_name": "Arivu Education Loan",
+      "category": "education",
+      "state": "Karnataka",
+      "eligibility": {
+        "job": "student",
+        "max_income": 800000
+      },
+      "details": "Loan support for higher education"
+    },
+
+    {
+      "scheme_name": "Bhagya Lakshmi Scheme",
+      "category": "women",
+      "state": "Karnataka",
+      "eligibility": {
+        "job": "female",
+        "max_income": 200000
+      },
+      "details": "Financial support for girl child"
+    },
+
+    {
+      "scheme_name": "Vidyasiri Scheme",
+      "category": "education",
+      "state": "Karnataka",
+      "eligibility": {
+        "job": "student",
+        "max_income": 250000
+      },
+      "details": "Free hostel and food for students"
+    },
+
+    {
+      "scheme_name": "Post Matric Scholarship",
+      "category": "education",
+      "state": "Karnataka",
+      "eligibility": {
+        "job": "student",
+        "max_income": 250000
+      },
+      "details": "Scholarship after 10th"
+    },
+
+    {
+      "scheme_name": "Pre Matric Scholarship",
+      "category": "education",
+      "state": "Karnataka",
+      "eligibility": {
+        "job": "student",
+        "max_income": 100000
+      },
+      "details": "Support for school students"
+    },
+
+    {
+      "scheme_name": "Karmika Arogya Bhagya",
+      "category": "health",
+      "state": "Karnataka",
+      "eligibility": {
+        "job": "worker",
+        "age_min": 18
+      },
+      "details": "Medical support for workers"
+    },
+
+    {
+      "scheme_name": "Griha Lakshmi Scheme",
+      "category": "women",
+      "state": "Karnataka",
+      "eligibility": {
+        "job": "female"
+      },
+      "details": "₹2000 monthly support"
+    },
+
+    {
+      "scheme_name": "Wild Animal Compensation",
+      "category": "social",
+      "state": "Uttarakhand",
+      "eligibility": {},
+      "details": "Compensation for damage"
+    },
+
+    {
+      "scheme_name": "Night Shelter Scheme",
+      "category": "housing",
+      "state": "Madhya Pradesh",
+      "eligibility": {
+        "job": "worker",
+        "age_min": 18
+      },
+      "details": "Shelter for workers"
+    },
+
+    {
+      "scheme_name": "Free Houses for Tribals",
+      "category": "housing",
+      "state": "Tamil Nadu",
+      "eligibility": {},
+      "details": "Free housing support"
+    },
+
+    {
+      "scheme_name": "Hostel for OBC",
+      "category": "education",
+      "state": "India",
+      "eligibility": {},
+      "details": "Hostel infrastructure"
+    },
+
+    {
+      "scheme_name": "Working Women Hostel",
+      "category": "women",
+      "state": "Tamil Nadu",
+      "eligibility": {
+        "job": "employee"
+      },
+      "details": "Hostel for working women"
+    },
+
+    {
+      "scheme_name": "Godown Scheme",
+      "category": "farmer",
+      "state": "Madhya Pradesh",
+      "eligibility": {
+        "job": "farmer"
+      },
+      "details": "Storage support"
+    },
+
+    {
+      "scheme_name": "Coaching Help Scheme",
+      "category": "education",
+      "state": "Gujarat",
+      "eligibility": {
+        "job": "student",
+        "max_income": 450000
+      },
+      "details": "Coaching support"
+    },
+
+    {
+      "scheme_name": "CSSS Scheme",
+      "category": "social",
+      "state": "Jammu & Kashmir",
+      "eligibility": {
+        "max_income": 48000
+      },
+      "details": "Social security support"
+    },
+
+    {
+      "scheme_name": "Cycle Anudaan Yojana",
+      "category": "employment",
+      "state": "Madhya Pradesh",
+      "eligibility": {
+        "job": "worker"
+      },
+      "details": "Cycle subsidy"
+    },
+
+    {
+      "scheme_name": "Hearing Aid Scheme",
+      "category": "health",
+      "state": "West Bengal",
+      "eligibility": {
+        "job": "worker"
+      },
+      "details": "Medical aid support"
+    },
+
+    {
+      "scheme_name": "Community Training Scheme",
+      "category": "skill",
+      "state": "Karnataka",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 35
+      },
+      "details": "Skill training"
+    },
+
+    {
+      "scheme_name": "Goat & Sheep Scheme",
+      "category": "farmer",
+      "state": "Maharashtra",
+      "eligibility": {
+        "job": "farmer"
+      },
+      "details": "Livestock support"
+    },
+
+    {
+      "scheme_name": "Employees Pension Scheme",
+      "category": "social",
+      "state": "India",
+      "eligibility": {
+        "job": "employee"
+      },
+      "details": "Pension support"
+    },
+
+    {
+      "scheme_name": "IT Saksham Yuva",
+      "category": "employment",
+      "state": "Haryana",
+      "eligibility": {
+        "job": "graduate",
+        "age_min": 18,
+        "age_max": 35
+      },
+      "details": "IT jobs and training"
+    }
+
+  ]
+}

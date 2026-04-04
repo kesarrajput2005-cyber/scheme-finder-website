@@ -1,43 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Scheme Finder</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
+    <!-- Header -->
     <header>
         <h1>🚀 Scheme Finder</h1>
     </header>
+
     <!-- Hero Section -->
     <section class="hero">
         <h2>Find Government Schemes Easily</h2>
         <p>Smart way to discover benefits for you</p>
+
+        <!-- Category Filter -->
         <div class="search-box">
             <select id="category">
-                <option value="">Select Category</option>
-                <option value="student">🎓 Student</option>
-                <option value="farmer">🚜 Farmer</option>
-                <option value="women">👩 Women</option>
+                <option value="">All Categories</option>
+                <option value="women">Women</option>
+                <option value="education">Education</option>
+                <option value="farmer">Farmer</option>
+                <option value="health">Health</option>
+                <option value="housing">Housing</option>
+                <option value="employment">Employment</option>
+                <option value="skill">Skill</option>
+                <option value="social">Social</option>
             </select>
+
             <button onclick="findSchemes()">Search</button>
         </div>
     </section>
-    <!-- Cards -->
+
+    <!-- Schemes Cards -->
     <section id="schemes" class="cards"></section>
-    <!-- Form -->
+
+    <!-- Eligibility Form -->
     <section class="form-section">
         <h2>Check Your Eligibility</h2>
+
         <form id="form" class="form-box">
+
             <input type="number" id="age" placeholder="Enter Age" required>
-            <input type="text" id="job" placeholder="Occupation" required>
+
+            <!-- FIXED JOB DROPDOWN -->
+            <select id="job" required>
+                <option value="">Select Occupation</option>
+                <option value="student">🎓 Student</option>
+                <option value="farmer">🚜 Farmer</option>
+                <option value="worker">👷 Worker</option>
+                <option value="entrepreneur">💼 Entrepreneur</option>
+                <option value="employee">🏢 Employee</option>
+                <option value="graduate">🎓 Graduate</option>
+                <option value="female">👩 Female</option>
+            </select>
+
             <input type="number" id="income" placeholder="Enter Income" required>
+
             <button type="submit">Check Now</button>
         </form>
+
         <p id="result"></p>
     </section>
+
+    <!-- JS -->
     <script src="script.js"></script>
+
 </body>
 </html>

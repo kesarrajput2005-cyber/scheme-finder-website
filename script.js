@@ -1,87 +1,104 @@
-async function findSchemes() {
+let allSchemes = [];
 
-    // Get input values
-    let income = Number(document.getElementById("income").value);
-    let category = document.getElementById("category").value;
+// ✅ Load JSON
+fetch('schemes.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log("JSON Loaded:", data); // DEBUG
+        allSchemes = data.schemes;
+        displaySchemes(allSchemes);
+    })
+    .catch(error => {
+        console.error("Error loading JSON:", error);
+        document.getElementById("schemes").innerHTML = "❌ Failed to load data";
+    });
 
-    // Validation
-    if (!income) {
-        document.getElementById("schemes").innerHTML = "Please enter income";
+
+// ✅ Display schemes
+function displaySchemes(schemes) {
+    const container = document.getElementById("schemes");
+    container.innerHTML = "";
+
+    if (!schemes || schemes.length === 0) {
+        container.innerHTML = "<p>No schemes found</p>";
         return;
     }
 
-    try {
-        // Fetch JSON data
-        let response = await fetch("data/schemes.json");
-        let data = await response.json();
+    schemes.forEach(scheme => {
+        const card = document.createElement("div");
+        card.className = "card";
 
-        // Access array inside JSON
-        let schemes = data.schemes;
+        card.innerHTML = `
+            <h3>${scheme.scheme_name}</h3>
+            <p><b>Category:</b> ${scheme.category}</p>
+            <p><b>State:</b> ${scheme.state}</p>
+            <p>${scheme.details}</p>
+        `;
 
-        let output = "";
+        container.appendChild(card);
+    });
+}
 
-        // Loop through each scheme
-        schemes.forEach(scheme => {
 
-            // Income condition
-            let incomeMatch = true;
-            if (scheme.eligibility.max_income) {
-                incomeMatch = income <= scheme.eligibility.max_income;
-            }
+// ✅ Category Filter
+function findSchemes() {
+    const category = document.getElementById("category").value.toLowerCase().trim();
 
-            // Category condition
-            let categoryMatch = true;
-            if (category) {
-                categoryMatch = scheme.category.toLowerCase().includes(category.toLowerCase());
-            }
+    if (!category) {
+        displaySchemes(allSchemes);
+        return;
+    }
 
-            // Final check
-            if (incomeMatch && categoryMatch) {
+    const filtered = allSchemes.filter(scheme =>
+        scheme.category && scheme.category.toLowerCase() === category
+    );
 
-                output += `
-                    <div class="card">
-                        <h3>${scheme.scheme_name}</h3>
-                        <p><b>Category:</b> ${scheme.category}</p>
-                        <p><b>Benefits:</b> ${scheme.benefits}</p>
-                        <button onclick="showDetails('${scheme.scheme_name}')">
-                            View Details
-                        </button>
-                    </div>
-                `;
-            }
-        });
+    displaySchemes(filtered);
+}
 
-        // If no results
-        if (output === "") {
-            output = "<p>No schemes found</p>";
+
+// ✅ Eligibility Check (FINAL WORKING)
+document.getElementById("form").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const age = Number(document.getElementById("age").value);
+    const job = document.getElementById("job").value.toLowerCase().trim();
+    const income = Number(document.getElementById("income").value);
+
+    const result = document.getElementById("result");
+
+    if (!job) {
+        result.innerHTML = "⚠️ Please select occupation";
+        return;
+    }
+
+    let eligible = [];
+
+    allSchemes.forEach(scheme => {
+        const el = scheme.eligibility || {};
+        let match = true;
+
+        // ✅ Age check
+        if (el.age_min !== undefined && age < el.age_min) match = false;
+        if (el.age_max !== undefined && age > el.age_max) match = false;
+
+        // ✅ Income check
+        if (el.max_income !== undefined && income > el.max_income) match = false;
+
+        // ✅ Job check (STRICT MATCH)
+        if (el.job !== undefined && job !== el.job.toLowerCase()) match = false;
+
+        // ✅ If all pass
+        if (match) {
+            eligible.push(scheme);
         }
+    });
 
-        // Show result
-        document.getElementById("schemes").innerHTML = output;
-
-    } catch (error) {
-        document.getElementById("schemes").innerHTML = "Error loading data";
+    if (eligible.length > 0) {
+        result.innerHTML = "<h3>✅ Eligible Schemes:</h3>";
+        displaySchemes(eligible);
+    } else {
+        result.innerHTML = "❌ No matching schemes found";
+        document.getElementById("schemes").innerHTML = "";
     }
-}
-
-
-// 🔥 Show Details Function
-async function showDetails(name) {
-
-    let response = await fetch("data/schemes.json");
-    let data = await response.json();
-    let schemes = data.schemes;
-
-    let scheme = schemes.find(s => s.scheme_name === name);
-
-    if (scheme) {
-        alert(
-            `📌 ${scheme.scheme_name}\n\n` +
-            `Category: ${scheme.category}\n\n` +
-            `Benefits: ${scheme.benefits}\n\n` +
-            `Documents: ${scheme.documents.join(", ")}\n\n` +
-            `Steps: ${scheme.steps.join(" → ")}\n\n` +
-            `Details: ${scheme.details}`
-        );
-    }
-}
+});
