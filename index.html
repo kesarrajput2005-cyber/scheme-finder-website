@@ -1,79 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Scheme Finder</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+<title>Scheme Finder</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>🚀 Scheme Finder</h1>
-    </header>
+<!-- Navigation Bar -->
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h2>Find Government Schemes Easily</h2>
-        <p>Smart way to discover benefits for you</p>
+<nav class="navbar">
+<h1>🚀 Scheme Finder</h1>
 
-        <!-- Category Filter -->
-        <div class="search-box">
-            <select id="category">
-                <option value="">All Categories</option>
-                <option value="women">Women</option>
-                <option value="education">Education</option>
-                <option value="farmer">Farmer</option>
-                <option value="health">Health</option>
-                <option value="housing">Housing</option>
-                <option value="employment">Employment</option>
-                <option value="skill">Skill</option>
-                <option value="social">Social</option>
-            </select>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#schemes">Schemes</a></li>
+<li><a href="#eligibility">Eligibility</a></li>
+</ul>
 
-            <button onclick="findSchemes()">Search</button>
-        </div>
-    </section>
+</nav>
 
-    <!-- Schemes Cards -->
-    <section id="schemes" class="cards"></section>
 
-    <!-- Eligibility Form -->
-    <section class="form-section">
-        <h2>Check Your Eligibility</h2>
+<!-- Hero Section -->
 
-        <form id="form" class="form-box">
+<section class="hero">
 
-            <input type="number" id="age" placeholder="Enter Age" required>
+<h2>Find Government Schemes Easily</h2>
 
-            <!-- FIXED JOB DROPDOWN -->
-            <select id="job" required>
-                <option value="">Select Occupation</option>
-                <option value="student">🎓 Student</option>
-                <option value="farmer">🚜 Farmer</option>
-                <option value="worker">👷 Worker</option>
-                <option value="entrepreneur">💼 Entrepreneur</option>
-                <option value="employee">🏢 Employee</option>
-                <option value="graduate">🎓 Graduate</option>
-                <option value="female">👩 Female</option>
-            </select>
+<p>Smart way to discover benefits made for you</p>
 
-            <input type="number" id="income" placeholder="Enter Income" required>
+<div class="search-box">
 
-            <button type="submit">Check Now</button>
-        </form>
+<select id="category">
 
-        <p id="result"></p>
-    </section>
+<option value="">All Categories</option>
+<option value="women">Women</option>
+<option value="education">Education</option>
+<option value="farmer">Farmer</option>
+<option value="health">Health</option>
+<option value="housing">Housing</option>
+<option value="employment">Employment</option>
+<option value="skill">Skill</option>
+<option value="social">Social</option>
 
-    <!-- JS -->
-    <script src="script.js"></script>
+</select>
+
+<button>Search</button>
+
+</div>
+
+</section>
+
+
+<!-- Schemes Section -->
+
+<section id="schemes" class="schemes">
+
+<h2>Popular Schemes</h2>
+
+<div class="card-container">
+
+<div class="card">
+<h3>PM Kisan</h3>
+<p>Financial support for farmers.</p>
+<button>View Details</button>
+</div>
+
+<div class="card">
+<h3>Udyogini Scheme</h3>
+<p>Loan support for women entrepreneurs.</p>
+<button>View Details</button>
+</div>
+
+<div class="card">
+<h3>Ayushman Bharat</h3>
+<p>Health insurance for poor families.</p>
+<button>View Details</button>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- Eligibility Form -->
+
+<section id="eligibility" class="eligibility">
+
+<h2>Check Your Eligibility</h2>
+
+<form>
+
+<input type="number" placeholder="Enter Age" required>
+
+<select>
+
+<option>Select Occupation</option>
+<option>Student</option>
+<option>Farmer</option>
+<option>Worker</option>
+<option>Employee</option>
+
+</select>
+
+<input type="number" placeholder="Enter Income" required>
+
+<button type="submit">Check Eligibility</button>
+
+</form>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer>
+
+<p>© 2026 Scheme Finder | Helping people find government benefits</p>
+
+</footer>
 
 </body>
 </html>
