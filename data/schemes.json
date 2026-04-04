@@ -1,253 +1,343 @@
-[
 {
-  "name": "Udyogini Scheme",
-  "category": "Women Self Employment",
-  "eligibility": {
-    "gender": "female",
-    "age_limit": 55,
-    "min_age": 18,
-    "max_income": 150000,
-    "state": "Karnataka"
-  },
-  "benefits": "Loan up to ₹3,00,000 with subsidy (50% SC/ST, 30% others)",
-  "documents": [
-    "ID Proof",
-    "Income Certificate",
-    "Caste Certificate",
-    "Project Report"
-  ],
-  "steps": [
-    "Visit bank",
-    "Submit documents",
-    "Loan approval",
-    "Receive amount"
-  ],
-  "details": "Udyogini Scheme helps women become self-employed by providing financial support through banks. It offers subsidy on loans and encourages small business activities like tailoring, food processing, and handicrafts."
-},
+  "schemes": [
 
-{
-  "name": "Shrama Shakthi Scheme",
-  "category": "Minority Self Employment",
-  "eligibility": {
-    "age_min": 18,
-    "age_max": 55,
-    "max_income": 350000,
-    "state": "Karnataka",
-    "category": "Minority",
-    "occupation": "entrepreneur"
-  },
-  "benefits": "Loan of ₹50,000 with 4% interest. 50% subsidy if repaid properly.",
-  "documents": [
-    "Application Form",
-    "Aadhaar Card",
-    "Income Certificate",
-    "Caste Certificate",
-    "Bank Passbook",
-    "Project Report"
-  ],
-  "steps": [
-    "Fill online application",
-    "Print application form",
-    "Submit to district office",
-    "Approval by selection panel",
-    "Loan and subsidy credited"
-  ],
-  "details": "Shrama Shakthi Scheme provides financial support and skill training to minority entrepreneurs in Karnataka. It offers a loan of ₹50,000 at low interest and encourages small business activities. If the loan is repaid on time, 50% is converted into subsidy."
-},
+    {
+      "scheme_name": "Udyogini Scheme",
+      "category": "Women Self Employment",
+      "state": "Karnataka",
+      "eligibility": {
+        "gender": "female",
+        "age_min": 18,
+        "age_max": 55,
+        "max_income": 150000
+      },
+      "benefits": "Loan up to ₹3,00,000 with subsidy (50% SC/ST, 30% others)",
+      "documents": ["ID Proof","Income Certificate","Caste Certificate","Project Report"],
+      "steps": ["Visit bank","Submit documents","Loan approval","Receive amount"],
+      "details": "Supports women entrepreneurs in small businesses."
+    },
 
-{
-  "name": "Arivu Education Loan Scheme",
-  "category": "Education",
-  "eligibility": {
-    "student": true,
-    "state": "Karnataka",
-    "category": "Minority",
-    "max_income": 800000,
-    "course_type": "professional"
-  },
-  "benefits": "Loan from ₹50,000 to ₹5,00,000 per year. 2% service charge after course completion.",
-  "documents": [
-    "Aadhaar Card",
-    "Income Certificate",
-    "Caste Certificate",
-    "Admission Letter",
-    "Marks Cards",
-    "Bonafide Certificate"
-  ],
-  "steps": [
-    "Visit KMDC website",
-    "Register using mobile and Aadhaar",
-    "Fill personal and education details",
-    "Upload required documents",
-    "Submit application",
-    "Receive application ID and wait for approval"
-  ],
-  "details": "Arivu Education Loan Scheme supports minority students in Karnataka by providing financial assistance for professional courses like engineering, medical, and management."
-},
+    {
+      "scheme_name": "Shrama Shakthi Scheme",
+      "category": "Minority Self Employment",
+      "state": "Karnataka",
+      "eligibility": {
+        "category": "Minority",
+        "occupation": "entrepreneur",
+        "age_min": 18,
+        "age_max": 55,
+        "max_income": 350000
+      },
+      "benefits": "Loan ₹50,000 at 4% interest, 50% subsidy on repayment",
+      "documents": ["Application Form","Aadhaar Card","Income Certificate","Caste Certificate","Bank Passbook","Project Report"],
+      "steps": ["Apply online","Submit form","Verification","Approval","Loan credit"],
+      "details": "Encourages entrepreneurship among minorities."
+    },
 
-{
-  "name": "Bhagya Lakshmi Scheme",
-  "category": "Women & Child Welfare",
-  "eligibility": {
-    "gender": "female",
-    "state": "Karnataka",
-    "family_type": "BPL",
-    "max_children": 2,
-    "birth_after": "31-03-2006",
-    "marriage_age_min": 18
-  },
-  "benefits": "Financial assistance up to ₹34,751 at age 18, annual scholarship (₹300–₹1,000), and health insurance up to ₹25,000 per year",
-  "documents": [
-    "Birth Certificate",
-    "Income Certificate",
-    "Address Proof",
-    "BPL Card",
-    "Bank Details",
-    "Photograph with parents"
-  ],
-  "steps": [
-    "Download application form from official website",
-    "Fill required details",
-    "Attach necessary documents",
-    "Submit to Anganwadi or local office",
-    "Verification and approval"
-  ],
-  "details": "Bhagya Lakshmi Scheme supports girl children in Karnataka by providing financial assistance, scholarships, and insurance benefits to families below the poverty line."
-},
+    {
+      "scheme_name": "Arivu Education Loan Scheme",
+      "category": "Education",
+      "state": "Karnataka",
+      "eligibility": {
+        "student": true,
+        "category": "Minority",
+        "course_type": "professional",
+        "max_income": 800000
+      },
+      "benefits": "₹50,000–₹5,00,000 per year loan",
+      "documents": ["Aadhaar Card","Income Certificate","Caste Certificate","Admission Letter","Marks Cards"],
+      "steps": ["Register","Fill form","Upload docs","Submit","Approval"],
+      "details": "Supports higher education for minority students."
+    },
 
-{
-  "name": "Vidyasiri Scheme",
-  "category": "Education",
-  "eligibility": {
-    "student": true,
-    "state": "Karnataka",
-    "category": "OBC/SC/ST",
-    "max_income": 250000
-  },
-  "benefits": "Free hostel, food, and fee assistance",
-  "documents": [
-    "Aadhaar Card",
-    "Income Certificate",
-    "Caste Certificate"
-  ],
-  "steps": [
-    "Apply on SSP portal",
-    "Verification",
-    "Benefit credited"
-  ],
-  "details": "Provides hostel, food, and fee support to backward class students pursuing higher education."
-},
+    {
+      "scheme_name": "Bhagya Lakshmi Scheme",
+      "category": "Women & Child Welfare",
+      "state": "Karnataka",
+      "eligibility": {
+        "gender": "female",
+        "family_type": "BPL",
+        "max_children": 2,
+        "marriage_age_min": 18
+      },
+      "benefits": "₹34,751 at 18 years + scholarships + insurance",
+      "documents": ["Birth Certificate","Income Certificate","BPL Card","Bank Details"],
+      "steps": ["Apply","Submit","Verification","Approval"],
+      "details": "Financial support for girl child welfare."
+    },
 
-{
-  "name": "Post Matric Scholarship (Karnataka)",
-  "category": "Education",
-  "eligibility": {
-    "student": true,
-    "min_class": 11,
-    "state": "Karnataka",
-    "category": "SC/ST/OBC",
-    "max_income": 250000
-  },
-  "benefits": "Tuition fees + maintenance allowance",
-  "documents": [
-    "Aadhaar Card",
-    "Income Certificate",
-    "Caste Certificate"
-  ],
-  "steps": [
-    "Apply via SSP",
-    "Upload documents",
-    "Verification",
-    "Funds credited"
-  ],
-  "details": "Supports students after Class 10 to continue education in colleges and professional courses."
-},
+    {
+      "scheme_name": "Vidyasiri Scheme",
+      "category": "Education",
+      "state": "Karnataka",
+      "eligibility": {
+        "student": true,
+        "category": "OBC/SC/ST",
+        "max_income": 250000
+      },
+      "benefits": "Free hostel, food, and fee assistance",
+      "documents": ["Aadhaar Card","Income Certificate","Caste Certificate"],
+      "steps": ["Apply SSP","Verification","Benefit credit"],
+      "details": "Supports backward class students."
+    },
 
-{
-  "name": "Pre Matric Scholarship (Karnataka)",
-  "category": "Education",
-  "eligibility": {
-    "student": true,
-    "class_range": "1-10",
-    "state": "Karnataka",
-    "category": "SC/ST/Minority",
-    "max_income": 100000
-  },
-  "benefits": "Financial support for school education",
-  "documents": [
-    "Aadhaar Card",
-    "Income Certificate",
-    "School Certificate"
-  ],
-  "steps": [
-    "Apply online",
-    "Verification",
-    "Funds credited"
-  ],
-  "details": "Encourages school education among economically weaker and minority students."
-},
+    {
+      "scheme_name": "Post Matric Scholarship (Karnataka)",
+      "category": "Education",
+      "state": "Karnataka",
+      "eligibility": {
+        "student": true,
+        "min_class": 11,
+        "category": "SC/ST/OBC",
+        "max_income": 250000
+      },
+      "benefits": "Tuition fees + maintenance allowance",
+      "documents": ["Aadhaar Card","Income Certificate","Caste Certificate"],
+      "steps": ["Apply SSP","Upload docs","Verification","Funds credited"],
+      "details": "Supports higher education after Class 10."
+    },
 
+    {
+      "scheme_name": "Pre Matric Scholarship (Karnataka)",
+      "category": "Education",
+      "state": "Karnataka",
+      "eligibility": {
+        "student": true,
+        "class_range": "1-10",
+        "category": "SC/ST/Minority",
+        "max_income": 100000
+      },
+      "benefits": "School financial support",
+      "documents": ["Aadhaar Card","Income Certificate","School Certificate"],
+      "steps": ["Apply online","Verification","Funds credited"],
+      "details": "Encourages school education."
+    },
 
-{
-  "name": "Medical Assistance (Karmika Arogya Bhagya)",
-  "category": "Health & Labour Welfare",
-  "eligibility": {
-    "worker_type": "construction_worker",
-    "state": "Karnataka",
-    "registered_worker": true,
-    "min_age": 18,
-    "work_days_required": 90,
-    "hospitalization_required": true,
-    "min_hospital_hours": 48
-  },
-  "benefits": "₹300 per day up to ₹20,000 for hospitalization (minimum 48 hours required)",
-  "documents": [
-    "Aadhaar Card",
-    "Work Certificate (90 Days)",
-    "Discharge Summary",
-    "Medical Bills",
-    "Self Declaration Form"
-  ],
-  "steps": [
-    "Register on KBOCWWB portal",
-    "Login using mobile OTP",
-    "Go to schemes section",
-    "Select medical assistance scheme",
-    "Upload documents",
-    "Submit application",
-    "Verification and approval"
-  ],
-  "details": "This scheme provides financial assistance to registered construction workers and their dependents in Karnataka during hospitalization, ensuring support for medical expenses."
-},
+    {
+      "scheme_name": "Karmika Arogya Bhagya",
+      "category": "Health & Labour Welfare",
+      "state": "Karnataka",
+      "eligibility": {
+        "worker_type": "construction_worker",
+        "registered_worker": true,
+        "min_age": 18
+      },
+      "benefits": "₹300/day up to ₹20,000 hospitalization support",
+      "documents": ["Aadhaar Card","Work Certificate","Medical Bills","Discharge Summary"],
+      "steps": ["Register","Apply online","Upload docs","Approval"],
+      "details": "Medical assistance for workers."
+    },
 
+    {
+      "scheme_name": "Griha Lakshmi Scheme",
+      "category": "Women & Financial Support",
+      "state": "Karnataka",
+      "eligibility": {
+        "gender": "female",
+        "role": "head_of_family",
+        "income_tax_payer": false
+      },
+      "benefits": "₹2,000 per month",
+      "documents": ["Ration Card","Aadhaar","Bank Passbook"],
+      "steps": ["Apply online","Verification","DBT transfer"],
+      "details": "Monthly financial support to women."
+    },
 
-{
-  "name": "Griha Lakshmi Scheme",
-  "category": "Women & Financial Support",
-  "eligibility": {
-    "gender": "female",
-    "state": "Karnataka",
-    "role": "head_of_family",
-    "ration_card": true,
-    "income_tax_payer": false
-  },
-  "benefits": "₹2,000 per month financial assistance directly transferred to bank account (DBT)",
-  "documents": [
-    "Ration Card",
-    "Aadhaar Card",
-    "Bank Passbook",
-    "Residence Proof",
-    "Income Certificate",
-    "Self Declaration"
-  ],
-  "steps": [
-    "Visit Seva Sindhu portal",
-    "Register using Aadhaar and mobile number",
-    "Login and fill application form",
-    "Upload required documents",
-    "Submit application and get reference number",
-    "Verification and approval"
-  ],
-  "details": "Griha Lakshmi Scheme provides monthly financial assistance to women heads of households in Karnataka to support household expenses and improve financial stability."
+    {
+      "scheme_name": "Wild Animal Damage Compensation",
+      "category": "Disaster Support",
+      "state": "Uttarakhand",
+      "eligibility": {
+        "resident": true,
+        "damage_by": "wild animals"
+      },
+      "benefits": "₹3,200–₹95,000 depending on damage",
+      "documents": ["ID Proof","Damage Report","Bank Details"],
+      "steps": ["Report incident","Verification","Approval"],
+      "details": "Compensation for elephant damage."
+    },
+
+    {
+      "scheme_name": "Construction Workers Night Shelter Scheme",
+      "category": "Housing",
+      "state": "Madhya Pradesh",
+      "eligibility": {
+        "worker": "construction",
+        "age_min": 18,
+        "age_max": 60
+      },
+      "benefits": "Night shelter accommodation",
+      "documents": ["Aadhaar Card","Employment Certificate"],
+      "steps": ["Apply offline","Submit","Approval"],
+      "details": "Shelter for migrant workers."
+    },
+
+    {
+      "scheme_name": "Construction of Free Houses for Tribals",
+      "category": "Housing",
+      "state": "Tamil Nadu",
+      "eligibility": {
+        "category": "SC/ST",
+        "resident": true
+      },
+      "benefits": "Free house construction",
+      "documents": ["Caste Certificate","Land Proof"],
+      "steps": ["Apply offline","Submit","Approval"],
+      "details": "Housing support for tribals."
+    },
+
+    {
+      "scheme_name": "Construction of Hostels for OBC",
+      "category": "Education Infrastructure",
+      "state": "India",
+      "eligibility": {
+        "category": "OBC"
+      },
+      "benefits": "Financial support for hostel construction",
+      "documents": ["Project Plan","Land Proof"],
+      "steps": ["Apply offline"],
+      "details": "Hostel infrastructure for OBC students."
+    },
+
+    {
+      "scheme_name": "Government Working Women's Hostel",
+      "category": "Women Housing",
+      "state": "Tamil Nadu",
+      "eligibility": {
+        "gender": "female",
+        "working": true
+      },
+      "benefits": "Low-cost hostel accommodation",
+      "documents": ["Income Certificate","Employer Certificate"],
+      "steps": ["Apply via CSC"],
+      "details": "Accommodation for working women."
+    },
+
+    {
+      "scheme_name": "Construction of Godown Scheme",
+      "category": "Agriculture",
+      "state": "Madhya Pradesh",
+      "eligibility": {
+        "farmer": true
+      },
+      "benefits": "Support for grain storage construction",
+      "documents": ["Land Document","Plan"],
+      "steps": ["Apply online"],
+      "details": "Improves rural storage facilities."
+    },
+
+    {
+      "scheme_name": "Coaching Help Scheme (JEE/NEET)",
+      "category": "Education",
+      "state": "Gujarat",
+      "eligibility": {
+        "student": true,
+        "min_marks": 70,
+        "max_income": 450000
+      },
+      "benefits": "₹20,000 coaching support",
+      "documents": ["Marks Card","Income Certificate"],
+      "steps": ["Apply online"],
+      "details": "Supports competitive exam coaching."
+    },
+
+    {
+      "scheme_name": "CSSS Scheme",
+      "category": "Social Security",
+      "state": "Jammu & Kashmir",
+      "eligibility": {
+        "age_min": 18,
+        "max_income": 48000
+      },
+      "benefits": "Insurance + pension option",
+      "documents": ["Aadhaar Card","Income Proof"],
+      "steps": ["Apply offline"],
+      "details": "Social security for workers."
+    },
+
+    {
+      "scheme_name": "Cycle Anudaan Yojana",
+      "category": "Transport Support",
+      "state": "Madhya Pradesh",
+      "eligibility": {
+        "worker": "construction"
+      },
+      "benefits": "₹4,000 subsidy",
+      "documents": ["Labour Card","Bill"],
+      "steps": ["Apply offline"],
+      "details": "Cycle support for workers."
+    },
+
+    {
+      "scheme_name": "Hearing Aid Scheme",
+      "category": "Health Support",
+      "state": "West Bengal",
+      "eligibility": {
+        "worker": "construction"
+      },
+      "benefits": "₹5,000 assistance",
+      "documents": ["Medical Bill"],
+      "steps": ["Apply offline"],
+      "details": "Support for hearing aid purchase."
+    },
+
+    {
+      "scheme_name": "Community Based Training Scheme",
+      "category": "Skill Development",
+      "state": "Karnataka",
+      "eligibility": {
+        "category": "Minority",
+        "age_min": 18,
+        "age_max": 35
+      },
+      "benefits": "Skill training programs",
+      "documents": ["Aadhaar","Marks Card"],
+      "steps": ["Apply online"],
+      "details": "Skill training for employment."
+    },
+
+    {
+      "scheme_name": "Goat and Sheep Scheme",
+      "category": "Agriculture & Livestock",
+      "state": "Maharashtra",
+      "eligibility": {
+        "category": "ST",
+        "bpl": true
+      },
+      "benefits": "Goats + subsidy",
+      "documents": ["Caste Certificate","Income Certificate"],
+      "steps": ["Apply offline"],
+      "details": "Livestock support for tribals."
+    },
+
+    {
+      "scheme_name": "Employees Pension Scheme",
+      "category": "Pension",
+      "state": "India",
+      "eligibility": {
+        "employee": true,
+        "service_years": 10
+      },
+      "benefits": "Monthly pension",
+      "documents": ["Service Proof"],
+      "steps": ["Apply via EPFO"],
+      "details": "Retirement pension scheme."
+    },
+
+    {
+      "scheme_name": "IT Saksham Yuva Scheme",
+      "category": "IT & Employment",
+      "state": "Haryana",
+      "eligibility": {
+        "graduate": true,
+        "age_min": 18,
+        "age_max": 35
+      },
+      "benefits": "₹20k–₹25k salary + training",
+      "documents": ["Degree Certificate"],
+      "steps": ["Apply online"],
+      "details": "IT training and job support."
+    }
+
+  ]
 }
-]

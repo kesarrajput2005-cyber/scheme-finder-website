@@ -22,7 +22,7 @@
                 <option value="farmer">🚜 Farmer</option>
                 <option value="women">👩 Women</option>
             </select>
-            <button onclick="showSchemes()">Search</button>
+            <button onclick="findSchemes()">Search</button>
         </div>
     </section>
     <!-- Cards -->
@@ -33,6 +33,7 @@
         <form id="form" class="form-box">
             <input type="number" id="age" placeholder="Enter Age" required>
             <input type="text" id="job" placeholder="Occupation" required>
+            <input type="number" id="income" placeholder="Enter Income" required>
             <button type="submit">Check Now</button>
         </form>
         <p id="result"></p>
