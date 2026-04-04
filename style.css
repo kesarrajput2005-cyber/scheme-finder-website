@@ -6,15 +6,28 @@ font-family:'Poppins',sans-serif;
 }
 
 
-/* Navbar */
+/* Navbar with Indian flag colors */
 
 .navbar{
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:15px 40px;
-background:#2c3e50;
-color:white;
+
+/* Indian flag gradient */
+
+background: linear-gradient(
+to right,
+#FF9933 0%,
+#FF9933 33%,
+#FFFFFF 33%,
+#FFFFFF 66%,
+#138808 66%,
+#138808 100%
+);
+
+color:black;
+font-weight:600;
 }
 
 .navbar ul{
@@ -28,8 +41,8 @@ margin-left:20px;
 
 .navbar ul li a{
 text-decoration:none;
-color:white;
-font-weight:500;
+color:black;
+font-weight:600;
 }
 
 
@@ -38,8 +51,11 @@ font-weight:500;
 .hero{
 text-align:center;
 padding:80px 20px;
-background:linear-gradient(135deg,#3498db,#6dd5fa);
-color:white;
+
+/* cream background */
+
+background:#FFF8E7;
+color:black;
 }
 
 .hero h2{
@@ -52,76 +68,96 @@ font-size:18px;
 margin-bottom:20px;
 }
 
-.search-box{
-margin-top:20px;
-}
+
+/* Search Box */
 
 .search-box select{
 padding:10px;
 font-size:16px;
 border-radius:5px;
-border:none;
+border:1px solid #ccc;
 }
 
 .search-box button{
 padding:10px 20px;
 border:none;
-background:#2c3e50;
+
+/* saffron button */
+
+background:#FF9933;
 color:white;
 border-radius:5px;
 cursor:pointer;
 margin-left:10px;
+font-weight:600;
 }
 
 
-/* Scheme Cards */
+/* Schemes Section */
 
 .schemes{
 padding:60px 20px;
 text-align:center;
+background:white;
+}
+
+.schemes h2{
+color:black;
 }
 
 .card-container{
 display:flex;
 justify-content:center;
-gap:20px;
+gap:25px;
 margin-top:30px;
 flex-wrap:wrap;
 }
 
+
+/* Scheme Cards */
+
 .card{
-background:white;
-padding:20px;
-width:250px;
+background:#FFFDF5;
+padding:25px;
+width:260px;
 border-radius:10px;
+
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
 transition:0.3s;
 }
 
 .card:hover{
-transform:translateY(-10px);
+transform:translateY(-8px);
 }
 
 .card h3{
 margin-bottom:10px;
+color:black;
+}
+
+.card p{
+color:#444;
 }
 
 .card button{
-margin-top:10px;
+margin-top:15px;
 padding:8px 15px;
 border:none;
-background:#3498db;
+
+/* green button */
+
+background:#138808;
 color:white;
 border-radius:5px;
 cursor:pointer;
 }
 
 
-/* Eligibility Form */
+/* Eligibility Section */
 
 .eligibility{
 padding:60px 20px;
-background:#f5f5f5;
+background:#FFF8E7;
 text-align:center;
 }
 
@@ -144,7 +180,10 @@ border:1px solid #ccc;
 form button{
 padding:10px 20px;
 border:none;
-background:#27ae60;
+
+/* saffron */
+
+background:#FF9933;
 color:white;
 border-radius:5px;
 cursor:pointer;
@@ -156,7 +195,7 @@ cursor:pointer;
 footer{
 text-align:center;
 padding:20px;
-background:#2c3e50;
+background:#138808;
 color:white;
 margin-top:40px;
 }
