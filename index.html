@@ -4,7 +4,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Scheme Finder</title>
 
 <link rel="stylesheet" href="style.css">
@@ -15,15 +14,27 @@
 
 <body>
 
-<!-- Navigation Bar -->
+<!-- Background Animation -->
+
+<div class="background">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+
+<!-- Navbar -->
 
 <nav class="navbar">
+
 <h1>🚀 Scheme Finder</h1>
 
 <ul>
 <li><a href="#">Home</a></li>
-<li><a href="#schemes">Schemes</a></li>
-<li><a href="#eligibility">Eligibility</a></li>
+<li><a href="#">Schemes</a></li>
+<li><a href="#">Eligibility</a></li>
 </ul>
 
 </nav>
@@ -39,18 +50,12 @@
 
 <div class="search-box">
 
-<select id="category">
-
-<option value="">All Categories</option>
-<option value="women">Women</option>
-<option value="education">Education</option>
-<option value="farmer">Farmer</option>
-<option value="health">Health</option>
-<option value="housing">Housing</option>
-<option value="employment">Employment</option>
-<option value="skill">Skill</option>
-<option value="social">Social</option>
-
+<select>
+<option>All Categories</option>
+<option>Women</option>
+<option>Education</option>
+<option>Farmer</option>
+<option>Health</option>
 </select>
 
 <button>Search</button>
@@ -62,11 +67,11 @@
 
 <!-- Schemes Section -->
 
-<section id="schemes" class="schemes">
+<section class="schemes">
 
 <h2>Popular Schemes</h2>
 
-<div class="card-container">
+<div class="cards">
 
 <div class="card">
 <h3>PM Kisan</h3>
@@ -82,7 +87,7 @@
 
 <div class="card">
 <h3>Ayushman Bharat</h3>
-<p>Health insurance for poor families.</p>
+<p>Health insurance scheme.</p>
 <button>View Details</button>
 </div>
 
@@ -91,31 +96,24 @@
 </section>
 
 
-<!-- Eligibility Form -->
+<!-- Eligibility -->
 
-<section id="eligibility" class="eligibility">
+<section class="eligibility">
 
 <h2>Check Your Eligibility</h2>
 
-<form>
-
-<input type="number" placeholder="Enter Age" required>
+<input type="number" placeholder="Enter Age">
 
 <select>
-
 <option>Select Occupation</option>
 <option>Student</option>
 <option>Farmer</option>
 <option>Worker</option>
-<option>Employee</option>
-
 </select>
 
-<input type="number" placeholder="Enter Income" required>
+<input type="number" placeholder="Enter Income">
 
-<button type="submit">Check Eligibility</button>
-
-</form>
+<button>Check Eligibility</button>
 
 </section>
 
@@ -124,7 +122,7 @@
 
 <footer>
 
-<p>© 2026 Scheme Finder | Helping people find government benefits</p>
+<p>© 2026 Scheme Finder</p>
 
 </footer>
 

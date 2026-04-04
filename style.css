@@ -6,6 +6,74 @@ font-family:'Poppins',sans-serif;
 }
 
 
+/* Body */
+
+body{
+background:#FAF3E0;
+overflow-x:hidden;
+}
+
+
+/* Background Animation */
+
+.background span{
+position:absolute;
+display:block;
+width:200px;
+height:200px;
+background:rgba(37,99,235,0.1);
+border-radius:50%;
+animation:animate 20s linear infinite;
+bottom:-150px;
+}
+
+.background span:nth-child(1){
+left:10%;
+animation-delay:0s;
+}
+
+.background span:nth-child(2){
+left:40%;
+width:300px;
+height:300px;
+animation-delay:5s;
+}
+
+.background span:nth-child(3){
+left:70%;
+animation-delay:2s;
+}
+
+.background span:nth-child(4){
+left:85%;
+width:250px;
+height:250px;
+animation-delay:7s;
+}
+
+.background span:nth-child(5){
+left:55%;
+width:180px;
+height:180px;
+animation-delay:10s;
+}
+
+
+@keyframes animate{
+
+0%{
+transform:translateY(0) scale(1);
+opacity:0.7;
+}
+
+100%{
+transform:translateY(-1000px) scale(1.5);
+opacity:0;
+}
+
+}
+
+
 /* Navbar */
 
 .navbar{
@@ -33,13 +101,11 @@ font-weight:500;
 }
 
 
-/* Hero Section */
+/* Hero */
 
 .hero{
 text-align:center;
-padding:80px 20px;
-background:#FAF3E0;
-color:#1A1A1A;
+padding:100px 20px;
 }
 
 .hero h2{
@@ -53,7 +119,7 @@ margin-bottom:20px;
 }
 
 
-/* Search Box */
+/* Search */
 
 .search-box select{
 padding:10px;
@@ -63,16 +129,12 @@ border:1px solid #ccc;
 
 .search-box button{
 padding:10px 20px;
-border:none;
 background:#2563EB;
 color:white;
+border:none;
 border-radius:5px;
 cursor:pointer;
 margin-left:10px;
-}
-
-.search-box button:hover{
-background:#1E40AF;
 }
 
 
@@ -80,11 +142,10 @@ background:#1E40AF;
 
 .schemes{
 padding:60px 20px;
-background:white;
 text-align:center;
 }
 
-.card-container{
+.cards{
 display:flex;
 justify-content:center;
 gap:20px;
@@ -93,7 +154,7 @@ flex-wrap:wrap;
 }
 
 
-/* Cards */
+/* Card */
 
 .card{
 background:white;
@@ -101,25 +162,16 @@ padding:20px;
 width:250px;
 border-radius:10px;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-8px);
 }
 
 .card button{
 margin-top:10px;
 padding:8px 15px;
-border:none;
 background:#2563EB;
 color:white;
+border:none;
 border-radius:5px;
 cursor:pointer;
-}
-
-.card button:hover{
-background:#1E40AF;
 }
 
 
@@ -127,37 +179,24 @@ background:#1E40AF;
 
 .eligibility{
 padding:60px 20px;
-background:#FAF3E0;
 text-align:center;
 }
 
-form{
-margin-top:20px;
-display:flex;
-flex-direction:column;
-align-items:center;
-gap:15px;
-}
-
-form input,
-form select{
+.eligibility input,
+.eligibility select{
 padding:10px;
-width:250px;
+margin:10px;
 border-radius:5px;
 border:1px solid #ccc;
 }
 
-form button{
+.eligibility button{
 padding:10px 20px;
-border:none;
 background:#2563EB;
 color:white;
+border:none;
 border-radius:5px;
 cursor:pointer;
-}
-
-form button:hover{
-background:#1E40AF;
 }
 
 
