@@ -9,7 +9,6 @@
 <link rel="stylesheet" href="style.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -19,25 +18,25 @@
 <nav class="navbar">
 
 <div class="logo">
-<img src="logo.png">
+<img src="logo.png" alt="logo">
 <h2>YojanaMitra</h2>
 </div>
 
 <div class="search-area">
 
-<input type="text" placeholder="Search Government Schemes">
+<input type="text" id="searchInput" placeholder="Search Government Schemes">
 
-<select>
-<option>All Categories</option>
-<option>Women</option>
-<option>Education</option>
-<option>Farmer</option>
-<option>Health</option>
-<option>Housing</option>
-<option>Employment</option>
+<select id="category">
+<option value="">All Categories</option>
+<option value="women">Women</option>
+<option value="education">Education</option>
+<option value="farmer">Farmer</option>
+<option value="health">Health</option>
+<option value="housing">Housing</option>
+<option value="employment">Employment</option>
 </select>
 
-<button>Search</button>
+<button onclick="searchScheme()">Search</button>
 
 </div>
 
@@ -62,33 +61,21 @@
 <div class="scheme-container">
 
 <div class="card">
-
 <h3>PM Kisan</h3>
-
 <p>Financial assistance of ₹6000 per year to small farmers.</p>
-
 <button>View Details</button>
-
 </div>
 
 <div class="card">
-
 <h3>Udyogini Scheme</h3>
-
 <p>Loan support for women entrepreneurs to start small businesses.</p>
-
 <button>View Details</button>
-
 </div>
 
 <div class="card">
-
 <h3>Ayushman Bharat</h3>
-
 <p>Health insurance coverage up to ₹5 lakh per family.</p>
-
 <button>View Details</button>
-
 </div>
 
 </div>
@@ -124,10 +111,41 @@
 <!-- Footer -->
 
 <footer>
-
 <p>© 2026 YojanaMitra | Helping citizens find government schemes</p>
-
 </footer>
+
+
+<!-- JavaScript for Search -->
+
+<script>
+
+function searchScheme(){
+
+let input = document.getElementById("searchInput").value.toLowerCase();
+
+if(input.includes("pm kisan")){
+alert("PM Kisan Scheme: Provides ₹6000 per year financial support to farmers.");
+}
+
+else if(input.includes("udyogini")){
+alert("Udyogini Scheme: Loan support for women entrepreneurs.");
+}
+
+else if(input.includes("ayushman")){
+alert("Ayushman Bharat: Health insurance coverage up to ₹5 lakh per family.");
+}
+
+else if(input == ""){
+alert("Please enter a scheme name.");
+}
+
+else{
+alert("Scheme not found. Try searching PM Kisan, Udyogini, or Ayushman Bharat.");
+}
+
+}
+
+</script>
 
 </body>
 </html>
