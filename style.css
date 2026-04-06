@@ -1,201 +1,49 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
-
-
-/* Navbar with Indian flag colors */
+/* Navbar */
 
 .navbar{
 display:flex;
-justify-content:space-between;
 align-items:center;
-padding:15px 40px;
-
-/* Indian flag gradient */
-
-background: linear-gradient(
-to right,
-#FF9933 0%,
-#FF9933 33%,
-#FFFFFF 33%,
-#FFFFFF 66%,
-#138808 66%,
-#138808 100%
-);
-
-color:black;
-font-weight:600;
+justify-content:space-between;
+background:#4A90E2;
+padding:10px 40px;
+font-family:'Poppins', sans-serif;
 }
+
+/* Logo + Title */
+
+.navbar h1{
+color:white;
+font-size:26px;
+display:flex;
+align-items:center;
+gap:10px;
+margin:0;
+}
+
+.navbar img{
+height:40px;
+}
+
+/* Menu */
 
 .navbar ul{
-display:flex;
 list-style:none;
-}
-
-.navbar ul li{
-margin-left:20px;
+display:flex;
+gap:30px;
+margin:0;
+padding:0;
 }
 
 .navbar ul li a{
 text-decoration:none;
-color:black;
-font-weight:600;
-}
-
-
-/* Hero Section */
-
-.hero{
-text-align:center;
-padding:80px 20px;
-
-/* cream background */
-
-background:#FFF8E7;
-color:black;
-}
-
-.hero h2{
-font-size:40px;
-margin-bottom:10px;
-}
-
-.hero p{
-font-size:18px;
-margin-bottom:20px;
-}
-
-
-/* Search Box */
-
-.search-box select{
-padding:10px;
-font-size:16px;
-border-radius:5px;
-border:1px solid #ccc;
-}
-
-.search-box button{
-padding:10px 20px;
-border:none;
-
-/* saffron button */
-
-background:#FF9933;
 color:white;
-border-radius:5px;
-cursor:pointer;
-margin-left:10px;
-font-weight:600;
-}
-
-
-/* Schemes Section */
-
-.schemes{
-padding:60px 20px;
-text-align:center;
-background:white;
-}
-
-.schemes h2{
-color:black;
-}
-
-.card-container{
-display:flex;
-justify-content:center;
-gap:25px;
-margin-top:30px;
-flex-wrap:wrap;
-}
-
-
-/* Scheme Cards */
-
-.card{
-background:#FFFDF5;
-padding:25px;
-width:260px;
-border-radius:10px;
-
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
+font-weight:500;
+font-size:16px;
 transition:0.3s;
 }
 
-.card:hover{
-transform:translateY(-8px);
-}
+/* Hover Effect */
 
-.card h3{
-margin-bottom:10px;
-color:black;
-}
-
-.card p{
-color:#444;
-}
-
-.card button{
-margin-top:15px;
-padding:8px 15px;
-border:none;
-
-/* green button */
-
-background:#138808;
-color:white;
-border-radius:5px;
-cursor:pointer;
-}
-
-
-/* Eligibility Section */
-
-.eligibility{
-padding:60px 20px;
-background:#FFF8E7;
-text-align:center;
-}
-
-form{
-margin-top:20px;
-display:flex;
-flex-direction:column;
-align-items:center;
-gap:15px;
-}
-
-form input,
-form select{
-padding:10px;
-width:250px;
-border-radius:5px;
-border:1px solid #ccc;
-}
-
-form button{
-padding:10px 20px;
-border:none;
-
-/* saffron */
-
-background:#FF9933;
-color:white;
-border-radius:5px;
-cursor:pointer;
-}
-
-
-/* Footer */
-
-footer{
-text-align:center;
-padding:20px;
-background:#138808;
-color:white;
-margin-top:40px;
+.navbar ul li a:hover{
+color:#FFD700;
 }
