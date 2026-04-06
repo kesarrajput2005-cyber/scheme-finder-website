@@ -119,28 +119,35 @@
 
 <script>
 
-function searchScheme(){
+function checkEligibility(){
 
-let input = document.getElementById("searchInput").value.toLowerCase();
+let age = document.querySelector('input[placeholder="Enter Age"]').value;
+let occupation = document.querySelector('.form-box select').value;
+let income = document.querySelector('input[placeholder="Enter Income"]').value;
 
-if(input.includes("pm kisan")){
-alert("PM Kisan Scheme: Provides ₹6000 per year financial support to farmers.");
+if(age == "" || income == ""){
+alert("Please fill all details");
+return;
 }
 
-else if(input.includes("udyogini")){
-alert("Udyogini Scheme: Loan support for women entrepreneurs.");
+if(occupation == "Farmer" && income < 200000){
+alert("You may be eligible for:\nPM Kisan Scheme");
 }
 
-else if(input.includes("ayushman")){
-alert("Ayushman Bharat: Health insurance coverage up to ₹5 lakh per family.");
+else if(occupation == "Student"){
+alert("You may be eligible for:\nEducation Scholarship Schemes");
 }
 
-else if(input == ""){
-alert("Please enter a scheme name.");
+else if(occupation == "Worker"){
+alert("You may be eligible for:\nSkill Development Schemes");
+}
+
+else if(occupation == "Employee" && income < 300000){
+alert("You may be eligible for:\nAyushman Bharat");
 }
 
 else{
-alert("Scheme not found. Try searching PM Kisan, Udyogini, or Ayushman Bharat.");
+alert("No schemes found for your details");
 }
 
 }
