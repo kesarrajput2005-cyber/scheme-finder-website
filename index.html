@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,18 +15,15 @@
 
 <body>
 
-<!-- Navbar -->
+<!-- Navigation Bar -->
 
 <nav class="navbar">
+<h1>🚀 Scheme Finder</h1>
 
-<div class="logo">
-🚀 Scheme Finder
-</div>
-
-<ul class="menu">
+<ul>
 <li><a href="#">Home</a></li>
-<li><a href="#">Schemes</a></li>
-<li><a href="#">Eligibility</a></li>
+<li><a href="#schemes">Schemes</a></li>
+<li><a href="#eligibility">Eligibility</a></li>
 </ul>
 
 </nav>
@@ -35,18 +33,24 @@
 
 <section class="hero">
 
-<h1>Find Government Schemes Easily</h1>
+<h2>Find Government Schemes Easily</h2>
 
 <p>Smart way to discover benefits made for you</p>
 
 <div class="search-box">
 
-<select>
-<option>All Categories</option>
-<option>Women</option>
-<option>Education</option>
-<option>Farmer</option>
-<option>Health</option>
+<select id="category">
+
+<option value="">All Categories</option>
+<option value="women">Women</option>
+<option value="education">Education</option>
+<option value="farmer">Farmer</option>
+<option value="health">Health</option>
+<option value="housing">Housing</option>
+<option value="employment">Employment</option>
+<option value="skill">Skill</option>
+<option value="social">Social</option>
+
 </select>
 
 <button>Search</button>
@@ -56,49 +60,73 @@
 </section>
 
 
-<!-- Popular Schemes -->
+<!-- Schemes Section -->
 
-<section class="schemes">
+<section id="schemes" class="schemes">
 
 <h2>Popular Schemes</h2>
 
-<div class="cards">
+<div class="card-container">
 
 <div class="card">
-
 <h3>PM Kisan</h3>
-
 <p>Financial support for farmers.</p>
-
 <button>View Details</button>
-
 </div>
 
-
 <div class="card">
-
 <h3>Udyogini Scheme</h3>
-
 <p>Loan support for women entrepreneurs.</p>
-
 <button>View Details</button>
-
 </div>
 
-
 <div class="card">
-
 <h3>Ayushman Bharat</h3>
-
 <p>Health insurance for poor families.</p>
-
 <button>View Details</button>
-
 </div>
 
 </div>
 
 </section>
+
+
+<!-- Eligibility Form -->
+
+<section id="eligibility" class="eligibility">
+
+<h2>Check Your Eligibility</h2>
+
+<form>
+
+<input type="number" placeholder="Enter Age" required>
+
+<select>
+
+<option>Select Occupation</option>
+<option>Student</option>
+<option>Farmer</option>
+<option>Worker</option>
+<option>Employee</option>
+
+</select>
+
+<input type="number" placeholder="Enter Income" required>
+
+<button type="submit">Check Eligibility</button>
+
+</form>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer>
+
+<p>© 2026 Scheme Finder | Helping people find government benefits</p>
+
+</footer>
 
 </body>
 </html>
