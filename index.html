@@ -4,8 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Scheme Finder</title>
+<title>YojanaMitra - Scheme Finder</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -15,119 +14,118 @@
 
 <body>
 
-<!-- Navigation Bar -->
+<!-- Navbar -->
 
 <nav class="navbar">
 
-<img src="logo.png" alt="Yojana Mitra Logo">
+<div class="logo">
+<img src="logo.png">
+<h2>YojanaMitra</h2>
+</div>
 
-<h1>Yojana Mitra</h1>
+<div class="search-area">
 
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#schemes">Schemes</a></li>
-<li><a href="#eligibility">Eligibility</a></li>
-</ul>
+<input type="text" placeholder="Search Government Schemes">
 
-</nav>
-
-
-<!-- Hero Section -->
-
-<section class="hero">
-
-<h2>Find Government Schemes Easily</h2>
-
-<p>Smart way to discover benefits made for you</p>
-
-<div class="search-box">
-
-<select id="category">
-
-<option value="">All Categories</option>
-<option value="women">Women</option>
-<option value="education">Education</option>
-<option value="farmer">Farmer</option>
-<option value="health">Health</option>
-<option value="housing">Housing</option>
-<option value="employment">Employment</option>
-<option value="skill">Skill</option>
-<option value="social">Social</option>
-
+<select>
+<option>All Categories</option>
+<option>Women</option>
+<option>Education</option>
+<option>Farmer</option>
+<option>Health</option>
+<option>Housing</option>
+<option>Employment</option>
 </select>
 
 <button>Search</button>
 
 </div>
 
-</section>
+</nav>
 
+<!-- Hero Section -->
+
+<section class="hero">
+
+<h1>Find The Best Government Schemes For You</h1>
+
+<p>Discover benefits designed for Indian citizens including farmers, students, women and workers.</p>
+
+</section>
 
 <!-- Schemes Section -->
 
-<section id="schemes" class="schemes">
+<section class="schemes">
 
-<h2>Popular Schemes</h2>
+<h2>Popular Government Schemes</h2>
 
-<div class="card-container">
+<div class="scheme-container">
 
 <div class="card">
+
 <h3>PM Kisan</h3>
-<p>Financial support for farmers.</p>
+
+<p>Financial assistance of ₹6000 per year to small farmers.</p>
+
 <button>View Details</button>
+
 </div>
 
 <div class="card">
+
 <h3>Udyogini Scheme</h3>
-<p>Loan support for women entrepreneurs.</p>
+
+<p>Loan support for women entrepreneurs to start small businesses.</p>
+
 <button>View Details</button>
+
 </div>
 
 <div class="card">
+
 <h3>Ayushman Bharat</h3>
-<p>Health insurance for poor families.</p>
+
+<p>Health insurance coverage up to ₹5 lakh per family.</p>
+
 <button>View Details</button>
+
 </div>
 
 </div>
 
 </section>
 
+<!-- Eligibility Section -->
 
-<!-- Eligibility Form -->
-
-<section id="eligibility" class="eligibility">
+<section class="eligibility">
 
 <h2>Check Your Eligibility</h2>
 
-<form>
+<div class="form-box">
 
-<input type="number" placeholder="Enter Age" required>
+<input type="number" placeholder="Enter Age">
 
 <select>
-
 <option>Select Occupation</option>
 <option>Student</option>
 <option>Farmer</option>
 <option>Worker</option>
 <option>Employee</option>
-
 </select>
 
-<input type="number" placeholder="Enter Income" required>
+<input type="number" placeholder="Enter Income">
 
-<button type="submit">Check Eligibility</button>
+<button>Check Schemes</button>
 
-</form>
+</div>
 
 </section>
-
 
 <!-- Footer -->
 
 <footer>
 
-<p>© 2026 Scheme Finder | Helping people find government benefits</p>
+<p>© 2026 YojanaMitra | Helping citizens find government schemes</p>
 
 </footer>
 

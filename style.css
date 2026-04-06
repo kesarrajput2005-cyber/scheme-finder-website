@@ -1,49 +1,142 @@
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#f4f6f9;
+}
+
 /* Navbar */
 
 .navbar{
 display:flex;
-align-items:center;
 justify-content:space-between;
-background:#4A90E2;
-padding:10px 40px;
-font-family:'Poppins', sans-serif;
+align-items:center;
+padding:15px 40px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-/* Logo + Title */
-
-.navbar h1{
-color:white;
-font-size:26px;
+.logo{
 display:flex;
 align-items:center;
 gap:10px;
-margin:0;
 }
 
-.navbar img{
+.logo img{
 height:40px;
 }
 
-/* Menu */
+.search-area{
+display:flex;
+gap:10px;
+}
 
-.navbar ul{
-list-style:none;
+.search-area input{
+padding:10px;
+width:250px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.search-area select{
+padding:10px;
+border-radius:5px;
+}
+
+.search-area button{
+background:#e63946;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* Hero */
+
+.hero{
+text-align:center;
+padding:60px 20px;
+background:linear-gradient(to right,#e3f2fd,#ffffff);
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.hero p{
+color:#555;
+}
+
+/* Schemes */
+
+.schemes{
+padding:50px;
+text-align:center;
+}
+
+.scheme-container{
 display:flex;
 gap:30px;
-margin:0;
-padding:0;
+justify-content:center;
+flex-wrap:wrap;
 }
 
-.navbar ul li a{
-text-decoration:none;
+.card{
+background:white;
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card button{
+background:#4A86C5;
 color:white;
-font-weight:500;
-font-size:16px;
-transition:0.3s;
+border:none;
+padding:10px;
+margin-top:10px;
+border-radius:5px;
+cursor:pointer;
 }
 
-/* Hover Effect */
+/* Eligibility */
 
-.navbar ul li a:hover{
-color:#FFD700;
+.eligibility{
+background:#0b2545;
+color:white;
+padding:50px;
+text-align:center;
+}
+
+.form-box{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.form-box input,
+.form-box select{
+padding:10px;
+border-radius:5px;
+border:none;
+}
+
+.form-box button{
+background:#e63946;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:#1d3557;
+color:white;
 }
