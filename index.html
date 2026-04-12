@@ -18,7 +18,7 @@
 <nav class="navbar">
 
 <div class="logo">
-<img src="logo.png" alt="logo">
+<img src="logo.png" alt="logo" width="40">
 <h2>YojanaMitra</h2>
 </div>
 
@@ -63,19 +63,19 @@
 <div class="card">
 <h3>PM Kisan</h3>
 <p>Financial assistance of ₹6000 per year to small farmers.</p>
-<button>View Details</button>
+<button onclick="alert('PM Kisan provides ₹6000 per year to farmers')">View Details</button>
 </div>
 
 <div class="card">
 <h3>Udyogini Scheme</h3>
 <p>Loan support for women entrepreneurs to start small businesses.</p>
-<button>View Details</button>
+<button onclick="alert('Udyogini scheme provides financial support for women entrepreneurs')">View Details</button>
 </div>
 
 <div class="card">
 <h3>Ayushman Bharat</h3>
 <p>Health insurance coverage up to ₹5 lakh per family.</p>
-<button>View Details</button>
+<button onclick="alert('Ayushman Bharat gives health insurance up to ₹5 lakh')">View Details</button>
 </div>
 
 </div>
@@ -90,19 +90,19 @@
 
 <div class="form-box">
 
-<input type="number" placeholder="Enter Age">
+<input type="number" id="age" placeholder="Enter Age">
 
-<select>
-<option>Select Occupation</option>
+<select id="occupation">
+<option value="">Select Occupation</option>
 <option>Student</option>
 <option>Farmer</option>
 <option>Worker</option>
 <option>Employee</option>
 </select>
 
-<input type="number" placeholder="Enter Income">
+<input type="number" id="income" placeholder="Enter Income">
 
-<button>Check Schemes</button>
+<button onclick="checkEligibility()">Check Schemes</button>
 
 </div>
 
@@ -114,18 +114,31 @@
 <p>© 2026 YojanaMitra | Helping citizens find government schemes</p>
 </footer>
 
-
-<!-- JavaScript for Search -->
+<!-- JavaScript -->
 
 <script>
 
+function searchScheme(){
+
+let searchText = document.getElementById("searchInput").value.toLowerCase();
+let category = document.getElementById("category").value;
+
+if(searchText == "" && category == ""){
+alert("Please enter scheme name or category");
+return;
+}
+
+alert("Searching for: " + searchText + " in category: " + category);
+
+}
+
 function checkEligibility(){
 
-let age = document.querySelector('input[placeholder="Enter Age"]').value;
-let occupation = document.querySelector('.form-box select').value;
-let income = document.querySelector('input[placeholder="Enter Income"]').value;
+let age = document.getElementById("age").value;
+let occupation = document.getElementById("occupation").value;
+let income = document.getElementById("income").value;
 
-if(age == "" || income == ""){
+if(age == "" || occupation == "" || income == ""){
 alert("Please fill all details");
 return;
 }
